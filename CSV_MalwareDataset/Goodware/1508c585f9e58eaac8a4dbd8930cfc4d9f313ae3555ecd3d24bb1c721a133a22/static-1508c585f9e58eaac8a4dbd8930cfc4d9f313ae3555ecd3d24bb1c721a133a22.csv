@@ -1,0 +1,13 @@
+dll,name,address
+ADVAPI32.dll,RegOpenKeyA,0x6163e0
+COMCTL32.dll,,0x6163e8
+GDI32.dll,Escape,0x6163f0
+KERNEL32.DLL,LoadLibraryA,0x6163f8
+KERNEL32.DLL,ExitProcess,0x6163fc
+KERNEL32.DLL,GetProcAddress,0x616400
+KERNEL32.DLL,VirtualProtect,0x616404
+ole32.dll,CoCreateInstance,0x61640c
+SHELL32.dll,ShellExecuteA,0x616414
+SHLWAPI.dll,PathFileExistsA,0x61641c
+USER32.dll,GetDC,0x616424
+WINSPOOL.DRV,OpenPrinterA,0x61642c
